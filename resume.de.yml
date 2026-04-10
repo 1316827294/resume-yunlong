@@ -1,0 +1,283 @@
+# yaml-language-server: $schema=https://yamlresume.dev/schema.json
+
+---
+content:
+  basics:
+    name: Yunlong Li
+    headline: KI- & IoT-Ingenieur
+    phone: "+41 79 539 72 86"
+    email: ddlong68@outlook.com
+    url: https://www.linkedin.com/in/yunlong-li-6891a72a3/
+    summary: |
+      Ingenieur an der Schnittstelle von KI, IoT und technischen Systemen — vom
+      Algorithmusentwurf bis zur Produktlieferung. Leitung funktionsübergreifender
+      Teams, Koordination mit Industriepartnern und Umsetzung von Projekten vom
+      Forschungskonzept bis zum produktiven Einsatz. Verbindet fundierte technische
+      Kompetenz in ML/KI-Modellierung, eingebetteten Plattformen und datengetriebener
+      Steuerung mit praktischer Erfahrung in Teamaufbau, Stakeholder-Kommunikation
+      und durchgängigem Projektmanagement.
+  location:
+    city: Zürich
+    country: Schweiz
+
+  work:
+    - name: Selbstständiges Startup
+      startDate: Mar 1, 2025
+      endDate: Jan 1, 2026
+      position: Gründer & Entwickler – SEO-Automatisierungssystem
+      summary: |
+        - Gesamten Produktlebenszyklus verantwortet — von Marktanalyse und Systemarchitektur bis Entwicklung und Deployment.
+        - KI-basiertes SEO-Automatisierungssystem mit intelligenten Agenten entworfen und implementiert, unter Einsatz von Vibe Coding für schnelles Prototyping.
+        - Keyword-Analyse, Content-Optimierung und Performance-Monitoring mit Echtzeit-Analytik automatisiert.
+        - Produkt-Roadmap, Nutzerfeedback-Integration und iterative Release-Zyklen eigenständig gesteuert.
+      keywords:
+        - KI-Agenten
+        - SEO
+        - Vibe Coding
+        - Produktmanagement
+
+    - name: Selbstständiges Startup
+      startDate: Jan 1, 2025
+      endDate: Jan 1, 2026
+      position: Gründer & Produktentwickler – KI-gestützte Smart Cat Door & IoT-System
+      summary: |
+        - End-to-End-Produktentwicklung geleitet — vom Konzeptentwurf über Hardware-Prototyping bis zum Cloud-Deployment.
+        - Hardware (Embedded-Firmware), Software (Cloud-Backend) und Benutzeroberfläche koordiniert, mit Vibe Coding zur Beschleunigung der Full-Stack-Implementierung.
+        - Embedded-KI für Tiererkennung und Verhaltenserkennung mit Micropython implementiert.
+        - Plattformübergreifende Mobile-App mit Expo (React Native) für Haustierüberwachung und Türsteuerung entwickelt.
+        - Gesamte Lieferkette aufgebaut — von Lieferantensuche und Komponentenbeschaffung bis zur Definition der Produktions-SOP.
+        - Praxiswissen in CE-, RED- und Netzwerkzertifizierungen für den EU-Markteintritt erworben.
+        - China-EU-Logistikkoordination inkl. Versand, Zoll und Lagerhaltung gesteuert.
+        - Lieferantenkommunikation, Komponentenbeschaffung und iteratives Prototypen-Testing verantwortet.
+      keywords:
+        - IoT
+        - Embedded-KI
+        - Lieferkette
+        - CE/RED-Zertifizierung
+        - Produktentwicklung
+
+    - name: HKUST (Guangzhou)
+      startDate: Sep 1, 2023
+      endDate: Jan 1, 2024
+      position: Forschungspraktikant Neurowissenschaften – In-Vivo-Neuralaufzeichnung
+      summary: |
+        - Mikrochirurgie (Kraniotomie) und Implantation von Neuralsonden für In-vivo-Aufzeichnungen durchgeführt.
+        - Mit interdisziplinären Forschungsteams aus Neurowissenschaften und Ingenieurwesen zusammengearbeitet.
+      keywords:
+        - Neurowissenschaften
+        - Neuralaufzeichnung
+        - Interdisziplinäre Forschung
+
+    - name: Guangzhou Design Institute
+      startDate: Sep 1, 2020
+      endDate: Jul 1, 2022
+      position: Praktikant HLK-Systementwicklung
+      summary: |
+        - Projektteam aufgebaut und geleitet, Forschungsrichtung, Aufgabenverteilung und Meilensteinplanung definiert.
+        - Algorithmen für multimodale Datenfusion entworfen und SAAS-Plattform-Architektur gestaltet.
+        - Hauptansprechpartner zwischen Universitäts-Forschungsteam und Industriepartner — Auftragsannahme, Vor-Ort-Deployment und Projektabnahme gesteuert.
+        - Projektpräsentationen und Roadshow-Pitches vor Stakeholdern und Investoren gehalten.
+        - COP von 7,0 und 36 % Energieeinsparung durch ML- & IoT-getriebene Optimierung erreicht.
+      keywords:
+        - Teamführung
+        - HLK
+        - Stakeholder-Management
+        - Projektlieferung
+
+  projects:
+    - name: Automatische Schraubmaschine – Bildverarbeitungssystem
+      description: Industrielles Bildverarbeitungssystem für flexible Fertigungs-Schraubmaschinen.
+      startDate: Sep 2019
+      endDate: Jan 2020
+      summary: |
+        - Bildverarbeitungsmodul als alleiniger Verantwortlicher geleitet, Koordination mit Mechanik- und Embedded-Teams für Systemintegration.
+        - Schraubenlochkoordinaten mittels 3D-Rekonstruktion extrahiert und an den Steuerrechner für automatisiertes Verschrauben übermittelt.
+        - Limitation der 2D-Bildverarbeitung bei unterschiedlichen Positionen und Tiefen der Schraubenlöcher gelöst.
+        - 3D-Modelle mittels Deep Learning und Punktwolkenverarbeitung erstellt; runde Schraubenlöcher mit Halcon identifiziert.
+        - Erkennungsgeschwindigkeit von 130ms auf 30ms verbessert, direkter Durchsatzanstieg der Produktionslinie ermöglicht.
+      keywords:
+        - 3D-Rekonstruktion
+        - Punktwolke
+        - Halcon
+        - Teamübergreifende Integration
+
+    - name: Energiesparendes Klimaanlagen-Steuerungssystem
+      description: Auf multimodaler Datenfusion basierendes HLK-Energiesparsystem.
+      startDate: Jan 2020
+      endDate: Jul 2022
+      summary: |
+        - Team von Grund auf aufgebaut — Mitglieder rekrutiert, Forschungsrichtung definiert und meilensteingesteuerte Projektpläne erstellt.
+        - Algorithmus für multimodale Datenfusion entworfen und SAAS-Plattform für Echtzeit-Monitoring und -Steuerung architektiert.
+        - Engineering-Lieferung durchgängig koordiniert: Unternehmenskommunikation, Auftragsannahme, Vor-Ort-Deployment und Abnahme.
+        - IoT-Plattform und Sensordatenbank für Schulgebäude aufgebaut; multimodale Baseline-Kalibrierung durchgeführt.
+        - Thermisches Komfort-Temperaturfeld-Analyseframework vorgeschlagen, 81 % Genauigkeit und 36 % Energieeinsparung erreicht.
+        - Roadshow-Präsentationen und Projekt-Pitches vor Stakeholdern, Investoren und Jurymitgliedern gehalten.
+        - Technologie im Produktivbetrieb eingesetzt und aktuell in Nutzung.
+      keywords:
+        - Teamführung
+        - Multimodale Fusion
+        - SAAS-Architektur
+        - Stakeholder-Kommunikation
+        - Projektlieferung
+
+    - name: "DMPA: Model-Poisoning-Angriffe auf dezentrales föderiertes Lernen"
+      description: Forschung zu Model-Poisoning-Angriffsstrategien für dezentrales föderiertes Lernen an der UZH.
+      startDate: Jan 2024
+      endDate: Feb 2025
+      summary: |
+        - Paper mit internationalem Forschungsteam co-verfasst (arXiv:2502.04771).
+        - Angriffsstrategie für dezentrales föderiertes Lernen durch Berechnung differenzieller Merkmale über adversariale Client-Modelle vorgeschlagen.
+        - Experimente über mehrere Datensätze und Angriffsszenarien mit Co-Autoren koordiniert.
+        - Methode übertrifft bestehende Model-Poisoning-Angriffe in dezentralen FL-Szenarien nachweislich.
+      keywords:
+        - Föderiertes Lernen
+        - Model Poisoning
+        - Forschungskooperation
+        - Sicherheit
+
+    - name: Gebärdenspracherkennung (ISLR) Forschung
+      description: Deep-Learning-basierte isolierte Gebärdenspracherkennung an der UZH.
+      startDate: Jun 2025
+      endDate: Jun 2026
+      summary: |
+        - Eigenständige Deep-Learning-Forschung zur isolierten Gebärdenspracherkennung (ISLR) durchgeführt.
+        - Video-to-Pose-Pipeline zur Extraktion skelettaler Pose-Repräsentationen aus Gebärdensprachvideos untersucht.
+        - Pose-to-Gloss-Mapping zur Übersetzung von Pose-Sequenzen in Gebärdensprach-Glossen erforscht.
+        - Umfassende Forschungszusammenfassung mit Vergleich der Ergebnisse beider Richtungen erstellt.
+      keywords:
+        - Deep Learning
+        - Gebärdensprache
+        - Video-to-Pose
+        - Pose-to-Gloss
+
+    - name: SEO-Automatisierungssystem
+      description: KI-gesteuerte SEO-Automatisierungsplattform mit intelligenten Agenten.
+      startDate: Mar 2025
+      endDate: Jan 2026
+      summary: |
+        - Systemarchitektur eigenständig entworfen, Produktanforderungen definiert und den gesamten Entwicklungslebenszyklus gesteuert.
+        - KI-basiertes SEO-Automatisierungssystem mit intelligenten Agenten für Keyword-Analyse, Content-Optimierung und Performance-Monitoring aufgebaut.
+        - Echtzeit-Analytik-Dashboards für datengetriebene Entscheidungsfindung integriert.
+        - Nutzerakquise, Feedback-Sammlung und iterative Produktverbesserung verantwortet.
+      keywords:
+        - KI-Agenten
+        - SEO
+        - Produktverantwortung
+        - Full-Stack
+
+    - name: Smart Cat Door – IoT-Plattform
+      description: KI-gestützte IoT-Plattform für intelligente Haustier-Zugangskontrolle.
+      startDate: Jan 2025
+      endDate: Jan 2026
+      summary: |
+        - End-to-End-Produktentwicklung geleitet — von Hardware-Design über Lieferantenkoordination bis Cloud-Plattform-Deployment.
+        - Embedded-KI für Tiererkennung und Verhaltenserkennung mit Micropython und MQTT implementiert.
+        - Plattformübergreifende Mobile-App mit Expo (React Native) für Haustierüberwachung und Türsteuerung entwickelt.
+        - Gesamten System-Stack aufgebaut: Firmware, Cloud-Kommunikation, Monitoring-Dashboard und mobile Benutzeroberfläche.
+        - Domänenübergreifende Koordination zwischen Hardware-Prototyping, Softwareentwicklung und Nutzertests gesteuert.
+      keywords:
+        - IoT
+        - Embedded-KI
+        - Produktentwicklung
+        - Hardware-Software-Integration
+
+  education:
+    - institution: Universität Zürich (UZH)
+      area: Computer Linguistics & Neuroinformatics
+      degree: Master of art
+      startDate: Sep 1, 2022
+      endDate: Jun 1, 2026
+
+  publications:
+    - name: "DMPA: Model Poisoning Attacks on Decentralized Federated Learning for Model Differences"
+      publisher: arXiv
+      releaseDate: Feb 7, 2025
+      url: https://arxiv.org/abs/2502.04771
+      summary: Innovative Model-Poisoning-Angriffsstrategie für dezentrale föderierte Lernsysteme vorgeschlagen.
+
+    - name: "Real-time construction of thermal model based on multimodal scene data"
+      publisher: Frontiers in Energy Research (JCR Q2)
+      releaseDate: Jan 1, 2022
+      summary: Echtzeit-Thermomodellkonstruktion mittels multimodaler Szenendatenfusion entwickelt.
+
+    - name: "Energy usage prediction based on multi-system data for public buildings using machine learning methods"
+      publisher: IEEE CompAuto 2021
+      releaseDate: Jan 1, 2021
+      summary: Machine-Learning-Methoden zur Energieverbrauchsvorhersage in öffentlichen Gebäuden angewendet.
+
+    - name: "Online transaction detection method using CatBoost model"
+      publisher: IEEE CISCE 2020
+      releaseDate: Jan 1, 2020
+      summary: Online-Transaktionserkennung mittels CatBoost-Modell entwickelt.
+
+  skills:
+    - name: KI & Maschinelles Lernen
+      level: Expert
+      keywords:
+        - Machine Learning
+        - Deep Learning
+        - Intelligente Agenten
+        - RAG
+        - Optimierungsalgorithmen
+        - PyTorch
+
+    - name: IoT, Embedded & Engineering
+      level: Advanced
+      keywords:
+        - Micropython
+        - MQTT
+        - Embedded-KI
+        - Sensornetzwerke
+        - HLK / PID / DDC
+        - Gerät-Cloud-Kommunikation
+
+    - name: Software & Infrastruktur
+      level: Advanced
+      keywords:
+        - Python
+        - C/C++
+        - JavaScript / TypeScript
+        - Cloudflare (D1, R2, Worker, Network)
+        - Oracle Cloud
+        - Docker / Nginx
+        - N8N
+
+    - name: Produkt & Führung
+      level: Advanced
+      keywords:
+        - Webentwicklung
+        - Teamaufbau
+        - Projektmanagement
+        - Lieferkette / SOP
+        - Stakeholder-Kommunikation
+
+  languages:
+    - language: Mandarin
+      fluency: Muttersprache
+    - language: Kantonesisch
+      fluency: Muttersprache
+    - language: Englisch
+      fluency: Verhandlungssicher
+    - language: Deutsch
+      fluency: Grundkenntnisse
+
+locale:
+  language: de
+
+layouts:
+  - engine: html
+    template: calm
+    typography:
+      fontSize: 16px
+  - engine: markdown
+  - engine: latex
+    page:
+      margins:
+        top: 2.5cm
+        left: 1.5cm
+        right: 1.5cm
+        bottom: 2.5cm
+      showPageNumbers: true
+    template: moderncv-banking
+    typography:
+      fontSize: 10pt

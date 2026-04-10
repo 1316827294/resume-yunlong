@@ -1,0 +1,282 @@
+# yaml-language-server: $schema=https://yamlresume.dev/schema.json
+
+---
+content:
+  basics:
+    name: Yunlong Li
+    headline: AI & IoT Engineer
+    phone: "+41 79 539 72 86"
+    email: ddlong68@outlook.com
+    url: https://www.linkedin.com/in/yunlong-li-6891a72a3/
+    summary: |
+      Engineer bridging AI, IoT, and engineering systems — from algorithm design to
+      product delivery. Led cross-functional teams, coordinated with industry partners,
+      and drove projects from research concept to deployed production systems. Combines
+      strong technical depth in ML/AI modeling, embedded platforms, and data-driven
+      control with hands-on experience in team building, stakeholder communication,
+      and end-to-end project management.
+  location:
+    city: Zurich
+    country: Switzerland
+
+  work:
+    - name: Independent Startup
+      startDate: Mar 1, 2025
+      endDate: Jan 1, 2026
+      position: Founder & Developer – SEO Automation Agent System
+      summary: |
+        - Founded and drove the full product lifecycle — from market research and system architecture to development and deployment.
+        - Designed and implemented an AI-based SEO automation system using intelligent agents, leveraging Vibe Coding for rapid prototyping and iterative development.
+        - Automated keyword analysis, content optimization, and performance monitoring with real-time analytics.
+        - Independently managed product roadmap, user feedback integration, and iterative release cycles.
+      keywords:
+        - AI Agents
+        - SEO
+        - Vibe Coding
+        - Product Management
+
+    - name: Independent Startup
+      startDate: Jan 1, 2025
+      endDate: Jan 1, 2026
+      position: Founder & Product Developer – AI-Enabled Smart Cat Door & IoT System
+      summary: |
+        - Led end-to-end product development from concept design through hardware prototyping to cloud deployment.
+        - Coordinated across hardware (embedded firmware), software (cloud backend), and user interface development, using Vibe Coding to accelerate full-stack implementation.
+        - Implemented embedded AI for animal recognition and behavior detection using Micropython.
+        - Developed a cross-platform mobile app using Expo (React Native) for pet monitoring and door control.
+        - Built the entire supply chain pipeline — from supplier sourcing and component procurement to production SOP definition.
+        - Gained hands-on knowledge of CE, RED, and network certifications required for EU market entry.
+        - Managed China-to-EU logistics coordination including shipping, customs, and warehousing workflows.
+        - Managed supplier communication, component sourcing, and iterative prototype testing.
+      keywords:
+        - IoT
+        - Embedded AI
+        - Supply Chain
+        - CE/RED Certification
+        - Product Development
+
+    - name: HKUST (Guangzhou)
+      startDate: Sep 1, 2023
+      endDate: Jan 1, 2024
+      position: Neuroscience Research Intern – In Vivo Neural Recording
+      summary: |
+        - Performed microsurgery (craniotomy) and neural probe implantation for in vivo recordings.
+        - Collaborated with cross-disciplinary research teams spanning neuroscience and engineering.
+      keywords:
+        - Neuroscience
+        - Neural Recording
+        - Cross-disciplinary Research
+
+    - name: Guangzhou Design Institute
+      startDate: Sep 1, 2020
+      endDate: Jul 1, 2022
+      position: HVAC System Development Intern
+      summary: |
+        - Built and led a project team, defining research direction, task allocation, and milestone planning.
+        - Designed algorithms for multi-modal data fusion and architected the SAAS platform.
+        - Served as the primary liaison between university research team and industry partner — managing order reception, on-site deployment, and project delivery.
+        - Delivered project presentations, roadshow pitches to stakeholders and investors.
+        - Achieved COP of 7.0 and 36% energy savings through ML & IoT-driven optimization.
+      keywords:
+        - Team Leadership
+        - HVAC
+        - Stakeholder Management
+        - Project Delivery
+
+  projects:
+    - name: Automatic Locking Screw Machine – Vision System
+      description: Industrial vision system for flexible manufacturing screw machines.
+      startDate: Sep 2019
+      endDate: Jan 2020
+      summary: |
+        - Led the vision module as the sole owner, coordinating with the mechanical and embedded teams for system integration.
+        - Extracted screw hole coordinates using 3D reconstruction and sent them to the lower computer for automated locking.
+        - Solved the limitation of 2D vision being unable to recognize screw holes at varying positions and depths.
+        - Constructed 3D models using deep learning and point cloud processing; identified round screw holes using Halcon.
+        - Improved screw hole recognition speed from 130ms to 30ms, directly enabling production line throughput increase.
+      keywords:
+        - 3D Reconstruction
+        - Point Cloud
+        - Halcon
+        - Cross-team Integration
+
+    - name: Central Air-Conditioning Energy-Saving Control System
+      description: Multi-modal data fusion based HVAC energy-saving control system.
+      startDate: Jan 2020
+      endDate: Jul 2022
+      summary: |
+        - Led team building from scratch — recruited members, defined research direction, and set milestone-driven project plans.
+        - Designed the multi-modal data fusion algorithm and architected the SAAS platform for real-time monitoring and control.
+        - Coordinated engineering delivery end-to-end: company communication, order reception, on-site deployment, and acceptance.
+        - Built an IoT platform and sensor database for school buildings; conducted multi-modal baseline calibration.
+        - Proposed a thermal comfort temperature field analysis framework, achieving 81% accuracy and 36% energy savings.
+        - Delivered roadshow presentations and project pitches to stakeholders, investors, and competition judges.
+        - Technology deployed to production and currently in active use.
+      keywords:
+        - Team Leadership
+        - Multi-modal Fusion
+        - SAAS Architecture
+        - Stakeholder Communication
+        - Project Delivery
+
+    - name: "DMPA: Model Poisoning Attacks on Decentralized Federated Learning"
+      description: Research on model poisoning attack strategies for decentralized federated learning at UZH.
+      startDate: Jan 2024
+      endDate: Feb 2025
+      summary: |
+        - Co-authored paper with an international research team (arXiv:2502.04771).
+        - Proposed an attack strategy targeting decentralized federated learning by computing differential characteristics across adversarial client models.
+        - Coordinated experiments across multiple datasets and attack scenarios with co-authors.
+        - Demonstrated the method consistently outperforms existing model poisoning attacks in decentralized FL settings.
+      keywords:
+        - Federated Learning
+        - Model Poisoning
+        - Research Collaboration
+        - Security
+
+    - name: Sign Language Recognition (ISLR) Research
+      description: Deep learning based Isolated Sign Language Recognition research at UZH.
+      startDate: Jun 2025
+      endDate: Jun 2026
+      summary: |
+        - Conducted independent deep learning research on Isolated Sign Language Recognition (ISLR).
+        - Investigated Video-to-Pose pipeline for extracting skeletal pose representations from sign language videos.
+        - Researched Pose-to-Gloss mapping for translating pose sequences into sign language glosses.
+        - Produced a comprehensive research summary consolidating and comparing findings across both directions.
+      keywords:
+        - Deep Learning
+        - Sign Language
+        - Video-to-Pose
+        - Pose-to-Gloss
+
+    - name: SEO Automation Agent System
+      description: AI-driven SEO automation platform using intelligent agents.
+      startDate: Mar 2025
+      endDate: Jan 2026
+      summary: |
+        - Independently designed system architecture, defined product requirements, and managed the full development lifecycle.
+        - Built an AI-based SEO automation system using intelligent agents for keyword analysis, content optimization, and performance monitoring.
+        - Integrated real-time analytics dashboards for data-driven decision making.
+        - Handled user acquisition, feedback collection, and iterative product improvement.
+      keywords:
+        - AI Agents
+        - SEO
+        - Product Ownership
+        - Full-Stack
+
+    - name: Smart Cat Door – IoT Platform
+      description: AI-powered IoT platform for intelligent pet access control.
+      startDate: Jan 2025
+      endDate: Jan 2026
+      summary: |
+        - Led end-to-end product development — from hardware design, supplier coordination, to cloud platform deployment.
+        - Implemented embedded AI for animal recognition and behavior detection using Micropython and MQTT.
+        - Developed a cross-platform mobile app using Expo (React Native) for pet monitoring and door control.
+        - Built the full system stack: firmware, cloud communication, monitoring dashboard, and mobile user interface.
+        - Managed cross-domain coordination between hardware prototyping, software development, and user testing.
+      keywords:
+        - IoT
+        - Embedded AI
+        - Product Development
+        - Hardware-Software Integration
+
+  education:
+    - institution: University of Zurich (UZH)
+      area: Computer Linguistics & Neuroinformatics
+      degree: Master of Art
+      startDate: Sep 1, 2022
+      endDate: Jun 1, 2026
+
+  publications:
+    - name: "DMPA: Model Poisoning Attacks on Decentralized Federated Learning for Model Differences"
+      publisher: arXiv
+      releaseDate: Feb 7, 2025
+      url: https://arxiv.org/abs/2502.04771
+      summary: Proposed an innovative model poisoning attack strategy targeting decentralized federated learning systems.
+
+    - name: "Real-time construction of thermal model based on multimodal scene data"
+      publisher: Frontiers in Energy Research (JCR Q2)
+      releaseDate: Jan 1, 2022
+      summary: Developed real-time thermal model construction using multimodal scene data fusion.
+
+    - name: "Energy usage prediction based on multi-system data for public buildings using machine learning methods"
+      publisher: IEEE CompAuto 2021
+      releaseDate: Jan 1, 2021
+      summary: Applied machine learning methods for energy usage prediction in public buildings.
+
+    - name: "Online transaction detection method using CatBoost model"
+      publisher: IEEE CISCE 2020
+      releaseDate: Jan 1, 2020
+      summary: Developed online transaction detection using CatBoost model.
+
+  skills:
+    - name: AI & Machine Learning
+      level: Expert
+      keywords:
+        - Machine Learning
+        - Deep Learning
+        - Intelligent Agents
+        - RAG
+        - Optimization Algorithms
+        - PyTorch
+
+    - name: IoT, Embedded & Engineering
+      level: Advanced
+      keywords:
+        - Micropython
+        - MQTT
+        - Embedded AI
+        - Sensor Networks
+        - HVAC / PID / DDC
+        - Device-Cloud Communication
+
+    - name: Software & Infrastructure
+      level: Advanced
+      keywords:
+        - Python
+        - C/C++
+        - JavaScript / TypeScript
+        - Cloudflare (D1, R2, Worker, Network)
+        - Oracle Cloud
+        - Docker / Nginx
+        - N8N
+
+    - name: Product & Leadership
+      level: Advanced
+      keywords:
+        - Web Development
+        - Team Building
+        - Project Management
+        - Supply Chain / SOP
+        - Stakeholder Communication
+
+  languages:
+    - language: Mandarin
+      fluency: Native
+    - language: Cantonese
+      fluency: Native
+    - language: English
+      fluency: Full Professional Proficiency
+    - language: German
+      fluency: Basic
+
+locale:
+  language: en
+
+layouts:
+  - engine: html
+    template: calm
+    typography:
+      fontSize: 16px
+  - engine: markdown
+  - engine: latex
+    page:
+      margins:
+        top: 2.5cm
+        left: 1.5cm
+        right: 1.5cm
+        bottom: 2.5cm
+      showPageNumbers: true
+    template: moderncv-banking
+    typography:
+      fontSize: 10pt
