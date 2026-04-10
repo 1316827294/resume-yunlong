@@ -2,7 +2,7 @@
 
 [![Build Resume](https://github.com/dipodidae/resume/actions/workflows/resume.yml/badge.svg)](https://github.com/dipodidae/resume/actions/workflows/resume.yml)
 
-Resume as Code using [YAMLResume](https://yamlresume.dev/).
+Resume as Code using1 [YAMLResume](https://yamlresume.dev/).
 
 **[View Resume](https://dipodidae.github.io/resume/)** · **[Download PDF](https://dipodidae.github.io/resume/resume.pdf)**
 
