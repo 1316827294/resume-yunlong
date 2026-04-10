@@ -149,6 +149,20 @@ content:
         - Video-to-Pose
         - Pose-to-Gloss
 
+    - name: Reddit Group-Control Automation System
+      description: Automated multi-account Reddit operations using Playwright browser automation.
+      startDate: Jan 2025
+      endDate: Feb 2025
+      summary: |
+        - Built a group-control automation system for Reddit using Playwright for multi-account browser orchestration.
+        - Automated content posting, engagement workflows, and account management across multiple Reddit accounts simultaneously.
+        - Implemented anti-detection strategies and human-like behavior simulation to maintain account integrity.
+      keywords:
+        - Playwright
+        - Browser Automation
+        - Group Control
+        - Python
+
     - name: SEO Automation Agent System
       description: AI-driven SEO automation platform using intelligent agents.
       startDate: Mar 2025
@@ -166,6 +180,7 @@ content:
 
     - name: Smart Cat Door – IoT Platform
       description: AI-powered IoT platform for intelligent pet access control.
+      url: https://mycatshome.com
       startDate: Jan 2025
       endDate: Jan 2026
       summary: |
