@@ -23,7 +23,7 @@ und durchgängigem Projektmanagement.
 
 ### Universität Zürich (UZH)
 
-Master of art, Computer Linguistics & Neuroinformatics, Sept. 2022–Juni 2026
+Master, Computer Linguistics & Neuroinformatics, Sept. 2022–Juni 2026
 
 ## Berufserfahrung
 
@@ -84,9 +84,9 @@ Summary:
 
 ## Sprachen
 
-- Mandarin: Muttersprache
-- Kantonesisch: Muttersprache
-- Englisch: Verhandlungssicher
+- Mandarin: Muttersprache oder zweisprachig
+- Kantonesisch: Muttersprache oder zweisprachig
+- Englisch: Verhandlungssichere Kenntnisse
 - Deutsch: Grundkenntnisse
 
 ## Fähigkeiten

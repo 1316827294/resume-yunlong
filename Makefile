@@ -1,6 +1,6 @@
 FILE = resume
 
-.PHONY: build build-de build-all dev dev-de validate validate-de clean doctor docker-build
+.PHONY: build build-de build-all pages dev dev-de validate validate-de clean doctor docker-build
 
 build: validate
 	pnpm yamlresume build $(FILE).yml
@@ -21,6 +21,14 @@ build-de: validate-de
 	rm -f $(FILE).de.aux $(FILE).de.log $(FILE).de.out
 
 build-all: build build-de
+
+pages:
+	pnpm yamlresume build $(FILE).yml || true
+	pnpm yamlresume build $(FILE).de.yml || true
+	mkdir -p _site
+	cp index.html _site/
+	cp $(FILE).html _site/
+	cp $(FILE).de.html _site/
 
 dev:
 	pnpm yamlresume dev $(FILE).yml

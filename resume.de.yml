@@ -18,7 +18,7 @@ content:
       und durchgängigem Projektmanagement.
   location:
     city: Zürich
-    country: Schweiz
+    country: Switzerland
 
   work:
     - name: Selbstständiges Startup
@@ -184,7 +184,7 @@ content:
   education:
     - institution: Universität Zürich (UZH)
       area: Computer Linguistics & Neuroinformatics
-      degree: Master of art
+      degree: Master
       startDate: Sep 1, 2022
       endDate: Jun 1, 2026
 
@@ -253,13 +253,13 @@ content:
 
   languages:
     - language: Mandarin
-      fluency: Muttersprache
-    - language: Kantonesisch
-      fluency: Muttersprache
-    - language: Englisch
-      fluency: Verhandlungssicher
-    - language: Deutsch
-      fluency: Grundkenntnisse
+      fluency: Native or Bilingual Proficiency
+    - language: Cantonese
+      fluency: Native or Bilingual Proficiency
+    - language: English
+      fluency: Full Professional Proficiency
+    - language: German
+      fluency: Elementary Proficiency
 
 locale:
   language: de

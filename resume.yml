@@ -183,7 +183,7 @@ content:
   education:
     - institution: University of Zurich (UZH)
       area: Computer Linguistics & Neuroinformatics
-      degree: Master of Art
+      degree: Master
       startDate: Sep 1, 2022
       endDate: Jun 1, 2026
 
@@ -252,13 +252,13 @@ content:
 
   languages:
     - language: Mandarin
-      fluency: Native
+      fluency: Native or Bilingual Proficiency
     - language: Cantonese
-      fluency: Native
+      fluency: Native or Bilingual Proficiency
     - language: English
       fluency: Full Professional Proficiency
     - language: German
-      fluency: Basic
+      fluency: Elementary Proficiency
 
 locale:
   language: en
