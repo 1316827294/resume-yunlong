@@ -73,16 +73,16 @@ content:
       endDate: Jul 1, 2022
       position: Praktikant HLK-Systementwicklung
       summary: |
-        - Projektteam aufgebaut und geleitet, Forschungsrichtung, Aufgabenverteilung und Meilensteinplanung definiert.
-        - Algorithmen für multimodale Datenfusion entworfen und SAAS-Plattform-Architektur gestaltet.
-        - Hauptansprechpartner zwischen Universitäts-Forschungsteam und Industriepartner — Auftragsannahme, Vor-Ort-Deployment und Projektabnahme gesteuert.
-        - Projektpräsentationen und Roadshow-Pitches vor Stakeholdern und Investoren gehalten.
-        - COP von 7,0 und 36 % Energieeinsparung durch ML- & IoT-getriebene Optimierung erreicht.
+        - Betreuenden Professor bei der Koordination mit Industriepartnern für Projektanforderungen und Deployment unterstützt.
+        - Bei der Teamorganisation mitgewirkt und an Forschungsrichtungsplanung und Meilensteinverfolgung teilgenommen.
+        - An der Entwicklung von Algorithmen für multimodale Datenfusion und SAAS-Plattform-Design mitgewirkt.
+        - Bei der Erstellung von Projektpräsentationen und Roadshow-Materialien für Stakeholder unterstützt.
+        - An der Erreichung von COP 7,0 und 36 % Energieeinsparung durch ML- & IoT-Optimierung mitgewirkt.
       keywords:
-        - Teamführung
         - HLK
-        - Stakeholder-Management
-        - Projektlieferung
+        - IoT
+        - Industriekoordination
+        - ML-Optimierung
 
   projects:
     - name: Automatische Schraubmaschine – Bildverarbeitungssystem

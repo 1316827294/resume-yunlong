@@ -72,16 +72,16 @@ content:
       endDate: Jul 1, 2022
       position: HVAC System Development Intern
       summary: |
-        - Built and led a project team, defining research direction, task allocation, and milestone planning.
-        - Designed algorithms for multi-modal data fusion and architected the SAAS platform.
-        - Served as the primary liaison between university research team and industry partner — managing order reception, on-site deployment, and project delivery.
-        - Delivered project presentations, roadshow pitches to stakeholders and investors.
-        - Achieved COP of 7.0 and 36% energy savings through ML & IoT-driven optimization.
+        - Assisted supervising professor in coordinating with industry partners for project requirements and deployment.
+        - Supported team organization and participated in research direction planning and milestone tracking.
+        - Contributed to multi-modal data fusion algorithm development and SAAS platform design.
+        - Helped prepare project presentations and roadshow materials for stakeholders.
+        - Participated in achieving COP of 7.0 and 36% energy savings through ML & IoT-driven optimization.
       keywords:
-        - Team Leadership
         - HVAC
-        - Stakeholder Management
-        - Project Delivery
+        - IoT
+        - Industry Coordination
+        - ML Optimization
 
   projects:
     - name: Automatic Locking Screw Machine – Vision System
