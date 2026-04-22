@@ -4,7 +4,7 @@
 content:
   basics:
     name: Yunlong Li
-    headline: KI- & IoT-Ingenieur
+    headline: Technischer Lösungsingenieur
     phone: "+41 79 539 72 86"
     email: ddlong68@outlook.com
     url: https://www.linkedin.com/in/yunlong-li-6891a72a3/
@@ -39,7 +39,7 @@ content:
     - name: Selbstständiges Startup
       startDate: Jan 1, 2025
       endDate: Jan 1, 2026
-      position: Gründer & Produktentwickler – KI-gestützte Smart Cat Door & IoT-System
+      position: Gründer & Produktentwickler – Smart Cat Door & IoT-System
       summary: |
         - End-to-End-Produktentwicklung geleitet — vom Konzeptentwurf über Hardware-Prototyping bis zum Cloud-Deployment.
         - Hardware (Embedded-Firmware), Software (Cloud-Backend) und Benutzeroberfläche koordiniert, mit Vibe Coding zur Beschleunigung der Full-Stack-Implementierung.
@@ -59,7 +59,7 @@ content:
     - name: HKUST (Guangzhou)
       startDate: Sep 1, 2023
       endDate: Jan 1, 2024
-      position: Forschungspraktikant Neurowissenschaften – In-Vivo-Neuralaufzeichnung
+      position: Forschungspraktikant Neurowissenschaften – Neuralaufzeichnung
       summary: |
         - Mikrochirurgie (Kraniotomie) und Implantation von Neuralsonden für In-vivo-Aufzeichnungen durchgeführt.
         - Mit interdisziplinären Forschungsteams aus Neurowissenschaften und Ingenieurwesen zusammengearbeitet.
@@ -252,7 +252,7 @@ content:
         - Python
         - C/C++
         - JavaScript / TypeScript
-        - Cloudflare (D1, R2, Worker, Network)
+        - Cloudflare D1 / R2 / Workers
         - Oracle Cloud
         - Docker / Nginx
         - N8N
