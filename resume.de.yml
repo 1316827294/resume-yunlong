@@ -120,6 +120,24 @@ content:
         - Stakeholder-Kommunikation
         - Projektlieferung
 
+    - name: UZH IFI Q&A Forums
+      description: Full-Stack-Echtzeitplattform für Fragen, Antworten und soziale Interaktion für UZH-Studierende, entwickelt als Team-Kursprojekt.
+      url: https://github.com/sopra-fs23-group-38/sopra-fs23-38-client
+      startDate: Mar 2023
+      endDate: May 2023
+      summary: |
+        - Full-Stack-Webanwendung für Echtzeit-Fragen und -Antworten, Thread-Diskussionen, Suche und Peer-Messaging für die UZH-Community entwickelt.
+        - End-to-End-Suchfunktion über Nutzer, Fragen, Antworten und Kommentare implementiert, inklusive SQL-basierter Backend-Suchlogik und dedizierter Frontend-Suchseite.
+        - Frontend- und Backend-Flows für Registrierung und Login verbunden, die Chat-Seite aufgebaut und die Verarbeitung von Kommentardaten auf Client-Seite integriert.
+        - Bei der Umstellung zentraler Interaktionen von HTTP-Requests auf WebSocket-basierte Echtzeit-Updates für Chat- und Antwort-Workflows mitgewirkt.
+        - Repositories: [Client](https://github.com/sopra-fs23-group-38/sopra-fs23-38-client) / [Server](https://github.com/sopra-fs23-group-38/sopra-fs23-38-server)
+      keywords:
+        - React
+        - Spring Boot
+        - WebSocket
+        - MySQL
+        - Full-Stack
+
     - name: "DMPA: Model-Poisoning-Angriffe auf dezentrales föderiertes Lernen"
       description: Forschung zu Model-Poisoning-Angriffsstrategien für dezentrales föderiertes Lernen an der UZH.
       startDate: Jan 2024
@@ -163,6 +181,23 @@ content:
         - Browser-Automatisierung
         - Gruppensteuerung
         - Python
+
+    - name: MarketWeb3 – Blockchain-Marktplatzplattform
+      description: Persönliches Web3-Marktplatzprojekt mit KI-gestützter Smart-Contract-Generierung und Blockchain-Transaktionen.
+      url: https://github.com/1316827294/marketweb3
+      startDate: Dec 2024
+      endDate: Jan 2025
+      summary: |
+        - Web3-Marktplatz-Prototyp auf Basis von Next.js 14 und TypeScript für Produktsuche, Wallet-verbundene Käufe und blockchainbasierte Transaktionsabläufe entwickelt.
+        - KI-gestützten Workflow zur Contract-Generierung entworfen, einschließlich Unterstützung mehrerer Contract-Typen, Solidity-Kompilierung, Deployment-Ablauf und IPFS-basierter Vertragsspeicherung.
+        - Zwei Escrow-Transaktionsmodi für unterschiedliche Marktplatzszenarien implementiert: direktes Contract-Escrow und plattformvermittelte Abwicklung.
+        - Moderne Web3-Infrastruktur mit RainbowKit, Wagmi, Ethers/Viem, Cloudflare D1 und Pinata integriert, um Wallet-Zugriff, On-Chain-Interaktion und dezentrale Datenspeicherung zu unterstützen.
+      keywords:
+        - Next.js
+        - TypeScript
+        - Web3
+        - Smart Contracts
+        - IPFS
 
     - name: SEO-Automatisierungssystem
       description: KI-gesteuerte SEO-Automatisierungsplattform mit intelligenten Agenten.

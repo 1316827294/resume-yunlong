@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="YAMLResume (https://yamlresume.dev)">
+
+
+  <title>Yunlong Li Resume</title>
+  <style>
+    :root {
+      --text-font-size: 16px;
+      --text-font-family: var(--text-default-font-family);
+      --line-height: 1.5;
+    }
+
+    /* Modified from: https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+    /* 1. Use a more-intuitive box-sizing model */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    /* 2. Remove default margin */
+    *:not(dialog) {
+      margin: 0;
+    }
+
+    body {
+      /* 3. Improve text rendering */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    :root {
+      --border-color: #d0d0d0;
+
+      /* text colors */
+      --text-color-primary: #000000;
+      --text-color-secondary: #333333;
+
+      /* spacing */
+      --spacing-xss: 2px;
+      --spacing-xs: 4px;
+      --spacing-sm: 8px;
+      --spacing-md: 12px;
+      --spacing-lg: 16px;
+      --spacing-xl: 24px;
+      --spacing-xxl: 40px;
+      --spacing-xxxl: 80px;
+
+      /* font sizes */
+      --font-size-xs: 0.8rem;
+      --font-size-sm: 0.9rem;
+      --font-size-md: 1rem;
+      --font-size-lg: 1.1rem;
+      --font-size-xl: 1.25rem;
+      --font-size-xxl: 2.5rem;
+
+      /* layout */
+      --page-max-width: 900px;
+
+      /* typography */
+      --text-default-font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+        Cantarell, sans-serif;
+    }
+
+    html {
+      font-size: var(--text-font-size);
+    }
+
+    body {
+      /* font & text */
+      color: var(--text-color-primary);
+      font-family: var(--text-font-family);
+      /* this variable is defined by `typography.fontSize` in resume html layout */
+      text-autospace: normal;
+
+      /* layout */
+      line-height: var(--line-height);
+      max-width: var(--page-max-width);
+      margin: 0 auto;
+      padding: var(--spacing-xxxl) var(--spacing-xxl) var(--spacing-xxl);
+    }
+
+    /* header */
+    .resume-header {
+      margin-bottom: var(--spacing-xxl);
+      text-align: center;
+    }
+
+    .resume-name {
+      font-size: var(--font-size-xxl);
+      font-weight: 600;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .resume-headline {
+      font-size: var(--font-size-lg);
+      margin-bottom: var(--spacing-md);
+    }
+
+    /* contact info */
+    .resume-contact-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: var(--spacing-lg);
+      row-gap: var(--spacing-xs);
+      margin-top: var(--spacing-sm);
+    }
+
+    .resume-contact-icon,
+    .resume-contact-label {
+      margin-right: var(--spacing-sm);
+      vertical-align: middle;
+    }
+
+    /* links: modern typographic style */
+    a {
+      color: var(--text-color-primary);
+      text-decoration: underline;
+      text-decoration-color: var(--border-color);
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      text-decoration-skip-ink: auto;
+      transition: text-decoration-color 0.2s;
+    }
+
+    a:hover {
+      text-decoration-color: var(--text-color-primary);
+    }
+
+    /* sections */
+    .resume-section {
+      margin-bottom: var(--spacing-xl);
+    }
+
+    .resume-section-title {
+      font-size: var(--font-size-xl);
+      font-weight: 500;
+      margin-bottom: var(--spacing-md);
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: var(--spacing-xs);
+    }
+
+    /* entries */
+    .resume-entry {
+      margin-bottom: var(--spacing-lg);
+    }
+
+    .resume-entry:last-child {
+      margin-bottom: 0;
+    }
+
+    .resume-entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .resume-entry-title {
+      font-weight: 500;
+      margin-bottom: var(--spacing-xss);
+    }
+
+    .resume-entry-summary p,
+    .resume-summary-content p {
+      margin-bottom: var(--spacing-xs);
+    }
+
+    /* lists */
+    .resume-entry-summary ul,
+    .resume-entry-summary ol,
+    .resume-summary-content ul,
+    .resume-summary-content ol {
+      padding-left: var(--spacing-lg);
+      list-style-type: circle;
+    }
+
+    /* labeled lists (courses, keywords, etc.) */
+    .resume-labeled-list span {
+      font-weight: 500;
+    }
+
+    /* skills grid */
+    .resume-skill-item,
+    .resume-language-item {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .resume-skill-name,
+    .resume-language-name {
+      font-weight: 500;
+    }
+
+    .resume-skill-level,
+    .resume-language-fluency {
+      font-weight: 400;
+    }
+
+    /* mobile */
+    @media (max-width: 768px) {
+      body {
+        padding: var(--spacing-xl);
+      }
+
+      .resume-header {
+        margin-bottom: var(--spacing-xl);
+      }
+
+      .resume-contact-info {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .resume-entry-header {
+        flex-wrap: wrap;
+      }
+
+      .resume-skill-item,
+      .resume-language-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    /* footer */
+    .resume-footer {
+      margin-top: var(--spacing-xxl);
+      padding-top: var(--spacing-xl);
+      border-top: 1px solid var(--border-color);
+      font-size: var(--font-size-sm);
+      color: var(--text-color-secondary);
+    }
+
+    @media print {
+      .resume-footer {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="resume-header">
+    <h1 class="resume-name">Yunlong Li</h1>
+    <p class="resume-headline">Technischer Lösungsingenieur</p>
+    <div class="resume-contact-info">
+      <span class="resume-contact-item"><span class="resume-contact-icon">📧</span><a href="mailto:ddlong68@outlook.com" class="resume-contact-link">ddlong68@outlook.com</a></span>
+      <span class="resume-contact-item"><span class="resume-contact-icon">📞</span>+41 79 539 72 86</span>
+      <span class="resume-contact-item"><span class="resume-contact-icon">🔗</span><a href="https://www.linkedin.com/in/yunlong-li-6891a72a3/" class="resume-contact-link">https://www.linkedin.com/in/yunlong-li-6891a72a3/</a></span>
+    </div>
+    <div class="resume-contact-info resume-location-info">
+      <span class="resume-contact-item"><span class="resume-contact-icon">📍</span>Zürich, Schweiz</span>
+    </div>
+
+  </header>
+  <section class="resume-section" data-section="summary">
+    <h2 class="resume-section-title">Basisinformationen</h2>
+    <div class="resume-section-content">
+      <div class="resume-summary-content">
+        <p>Ingenieur an der Schnittstelle von KI, IoT und technischen Systemen — vom
+          Algorithmusentwurf bis zur Produktlieferung. Leitung funktionsübergreifender
+          Teams, Koordination mit Industriepartnern und Umsetzung von Projekten vom
+          Forschungskonzept bis zum produktiven Einsatz. Verbindet fundierte technische
+          Kompetenz in ML/KI-Modellierung, eingebetteten Plattformen und datengetriebener
+          Steuerung mit praktischer Erfahrung in Teamaufbau, Stakeholder-Kommunikation
+          und durchgängigem Projektmanagement.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="education">
+    <h2 class="resume-section-title">Ausbildung</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Universität Zürich (UZH)</div>
+            <div class="resume-entry-organization">Master, Computer Linguistics &amp; Neuroinformatics</div>
+          </div>
+          <div class="resume-entry-date">Sept. 2022–Juni 2026</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="work">
+    <h2 class="resume-section-title">Berufserfahrung</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Selbstständiges Startup</div>
+            <div class="resume-entry-organization">Gründer &amp; Entwickler – SEO-Automatisierungssystem</div>
+          </div>
+          <div class="resume-entry-date">März 2025–Jan. 2026</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>Gesamten Produktlebenszyklus verantwortet — von Marktanalyse und Systemarchitektur bis Entwicklung und Deployment.</p>
+            </li>
+            <li>
+              <p>KI-basiertes SEO-Automatisierungssystem mit intelligenten Agenten entworfen und implementiert, unter Einsatz von Vibe Coding für schnelles Prototyping.</p>
+            </li>
+            <li>
+              <p>Keyword-Analyse, Content-Optimierung und Performance-Monitoring mit Echtzeit-Analytik automatisiert.</p>
+            </li>
+            <li>
+              <p>Produkt-Roadmap, Nutzerfeedback-Integration und iterative Release-Zyklen eigenständig gesteuert.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Schlüsselwörter</span>: KI-Agenten, SEO, Vibe Coding, Produktmanagement</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Selbstständiges Startup</div>
+            <div class="resume-entry-organization">Gründer &amp; Produktentwickler – Smart Cat Door &amp; IoT-System</div>
+          </div>
+          <div class="resume-entry-date">Jan. 2025–Jan. 2026</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>End-to-End-Produktentwicklung geleitet — vom Konzeptentwurf über Hardware-Prototyping bis zum Cloud-Deployment.</p>
+            </li>
+            <li>
+              <p>Hardware (Embedded-Firmware), Software (Cloud-Backend) und Benutzeroberfläche koordiniert, mit Vibe Coding zur Beschleunigung der Full-Stack-Implementierung.</p>
+            </li>
+            <li>
+              <p>Embedded-KI für Tiererkennung und Verhaltenserkennung mit Micropython implementiert.</p>
+            </li>
+            <li>
+              <p>Plattformübergreifende Mobile-App mit Expo (React Native) für Haustierüberwachung und Türsteuerung entwickelt.</p>
+            </li>
+            <li>
+              <p>Gesamte Lieferkette aufgebaut — von Lieferantensuche und Komponentenbeschaffung bis zur Definition der Produktions-SOP.</p>
+            </li>
+            <li>
+              <p>Praxiswissen in CE-, RED- und Netzwerkzertifizierungen für den EU-Markteintritt erworben.</p>
+            </li>
+            <li>
+              <p>China-EU-Logistikkoordination inkl. Versand, Zoll und Lagerhaltung gesteuert.</p>
+            </li>
+            <li>
+              <p>Lieferantenkommunikation, Komponentenbeschaffung und iteratives Prototypen-Testing verantwortet.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Schlüsselwörter</span>: IoT, Embedded-KI, Lieferkette, CE/RED-Zertifizierung, Produktentwicklung</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">HKUST (Guangzhou)</div>
+            <div class="resume-entry-organization">Forschungspraktikant Neurowissenschaften – Neuralaufzeichnung</div>
+          </div>
+          <div class="resume-entry-date">Sept. 2023–Jan. 2024</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>Mikrochirurgie (Kraniotomie) und Implantation von Neuralsonden für In-vivo-Aufzeichnungen durchgeführt.</p>
+            </li>
+            <li>
+              <p>Mit interdisziplinären Forschungsteams aus Neurowissenschaften und Ingenieurwesen zusammengearbeitet.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Schlüsselwörter</span>: Neurowissenschaften, Neuralaufzeichnung, Interdisziplinäre Forschung</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Guangzhou Design Institute</div>
+            <div class="resume-entry-organization">Praktikant HLK-Systementwicklung</div>
+          </div>
+          <div class="resume-entry-date">Sept. 2020–Juli 2022</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>Betreuenden Professor bei der Koordination mit Industriepartnern für Projektanforderungen und Deployment unterstützt.</p>
+            </li>
+            <li>
+              <p>Bei der Teamorganisation mitgewirkt und an Forschungsrichtungsplanung und Meilensteinverfolgung teilgenommen.</p>
+            </li>
+            <li>
+              <p>An der Entwicklung von Algorithmen für multimodale Datenfusion und SAAS-Plattform-Design mitgewirkt.</p>
+            </li>
+            <li>
+              <p>Bei der Erstellung von Projektpräsentationen und Roadshow-Materialien für Stakeholder unterstützt.</p>
+            </li>
+            <li>
+              <p>An der Erreichung von COP 7,0 und 36 % Energieeinsparung durch ML- &amp; IoT-Optimierung mitgewirkt.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Schlüsselwörter</span>: HLK, IoT, Industriekoordination, ML-Optimierung</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="languages">
+    <h2 class="resume-section-title">Sprachen</h2>
+    <div class="resume-section-content">
+      <div class="resume-languages-list">
+        <div class="resume-language-item">
+          <div class="resume-language-name">Mandarin<span class="resume-language-fluency">: Muttersprache oder zweisprachig</span></div>
+        </div>
+        <div class="resume-language-item">
+          <div class="resume-language-name">Kantonesisch<span class="resume-language-fluency">: Muttersprache oder zweisprachig</span></div>
+        </div>
+        <div class="resume-language-item">
+          <div class="resume-language-name">Englisch<span class="resume-language-fluency">: Verhandlungssichere Kenntnisse</span></div>
+        </div>
+        <div class="resume-language-item">
+          <div class="resume-language-name">Deutsch<span class="resume-language-fluency">: Grundkenntnisse</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="skills">
+    <h2 class="resume-section-title">Fähigkeiten</h2>
+    <div class="resume-section-content">
+      <div class="resume-skill-item">
+        <div class="resume-skill-name">KI &amp; Maschinelles Lernen<span class="resume-skill-level">: Experte</span></div>
+        <div>
+          <div class="resume-labeled-list"><span>Schlüsselwörter</span>: Machine Learning, Deep Learning, Intelligente Agenten, RAG, Optimierungsalgorithmen, PyTorch</div>
+        </div>
+      </div>
+      <div class="resume-skill-item">
+        <div class="resume-skill-name">IoT, Embedded &amp; Engineering<span class="resume-skill-level">: Erfahren</span></div>
+        <div>
+          <div class="resume-labeled-list"><span>Schlüsselwörter</span>: Micropython, MQTT, Embedded-KI, Sensornetzwerke, HLK / PID / DDC, Gerät-Cloud-Kommunikation</div>
+        </div>
+      </div>
+      <div class="resume-skill-item">
+        <div class="resume-skill-name">Software &amp; Infrastruktur<span class="resume-skill-level">: Erfahren</span></div>
+        <div>
+          <div class="resume-labeled-list"><span>Schlüsselwörter</span>: Python, C/C++, JavaScript / TypeScript, Cloudflare D1 / R2 / Workers, Oracle Cloud, Docker / Nginx, N8N</div>
+        </div>
+      </div>
+      <div class="resume-skill-item">
+        <div class="resume-skill-name">Produkt &amp; Führung<span class="resume-skill-level">: Erfahren</span></div>
+        <div>
+          <div class="resume-labeled-list"><span>Schlüsselwörter</span>: Webentwicklung, Teamaufbau, Projektmanagement, Lieferkette / SOP, Stakeholder-Kommunikation</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="publications">
+    <h2 class="resume-section-title">Veröffentlichungen</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://arxiv.org/abs/2502.04771">DMPA: Model Poisoning Attacks on Decentralized Federated Learning for Model Differences</a></div>
+            <div class="resume-entry-organization">arXiv</div>
+          </div>
+          <div class="resume-entry-date">Feb. 2025</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>Innovative Model-Poisoning-Angriffsstrategie für dezentrale föderierte Lernsysteme vorgeschlagen.</p>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Real-time construction of thermal model based on multimodal scene data</div>
+            <div class="resume-entry-organization">Frontiers in Energy Research (JCR Q2)</div>
+          </div>
+          <div class="resume-entry-date">Jan. 2022</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>Echtzeit-Thermomodellkonstruktion mittels multimodaler Szenendatenfusion entwickelt.</p>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Energy usage prediction based on multi-system data for public buildings using machine learning methods</div>
+            <div class="resume-entry-organization">IEEE CompAuto 2021</div>
+          </div>
+          <div class="resume-entry-date">Jan. 2021</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>Machine-Learning-Methoden zur Energieverbrauchsvorhersage in öffentlichen Gebäuden angewendet.</p>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Online transaction detection method using CatBoost model</div>
+            <div class="resume-entry-organization">IEEE CISCE 2020</div>
+          </div>
+          <div class="resume-entry-date">Jan. 2020</div>
+        </div>
+        <div class="resume-entry-summary">
+          <p>Online-Transaktionserkennung mittels CatBoost-Modell entwickelt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section" data-section="projects">
+    <h2 class="resume-section-title">Projekte</h2>
+    <div class="resume-section-content">
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Automatische Schraubmaschine – Bildverarbeitungssystem</div>
+            <div class="resume-entry-description">Industrielles Bildverarbeitungssystem für flexible Fertigungs-Schraubmaschinen.</div>
+          </div>
+          <div class="resume-entry-date">Sept. 2019–Jan. 2020</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>Bildverarbeitungsmodul als alleiniger Verantwortlicher geleitet, Koordination mit Mechanik- und Embedded-Teams für Systemintegration.</p>
+            </li>
+            <li>
+              <p>Schraubenlochkoordinaten mittels 3D-Rekonstruktion extrahiert und an den Steuerrechner für automatisiertes Verschrauben übermittelt.</p>
+            </li>
+            <li>
+              <p>Limitation der 2D-Bildverarbeitung bei unterschiedlichen Positionen und Tiefen der Schraubenlöcher gelöst.</p>
+            </li>
+            <li>
+              <p>3D-Modelle mittels Deep Learning und Punktwolkenverarbeitung erstellt; runde Schraubenlöcher mit Halcon identifiziert.</p>
+            </li>
+            <li>
+              <p>Erkennungsgeschwindigkeit von 130ms auf 30ms verbessert, direkter Durchsatzanstieg der Produktionslinie ermöglicht.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Schlüsselwörter</span>: 3D-Rekonstruktion, Punktwolke, Halcon, Teamübergreifende Integration</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Energiesparendes Klimaanlagen-Steuerungssystem</div>
+            <div class="resume-entry-description">Auf multimodaler Datenfusion basierendes HLK-Energiesparsystem.</div>
+          </div>
+          <div class="resume-entry-date">Jan. 2020–Juli 2022</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>Team von Grund auf aufgebaut — Mitglieder rekrutiert, Forschungsrichtung definiert und meilensteingesteuerte Projektpläne erstellt.</p>
+            </li>
+            <li>
+              <p>Algorithmus für multimodale Datenfusion entworfen und SAAS-Plattform für Echtzeit-Monitoring und -Steuerung architektiert.</p>
+            </li>
+            <li>
+              <p>Engineering-Lieferung durchgängig koordiniert: Unternehmenskommunikation, Auftragsannahme, Vor-Ort-Deployment und Abnahme.</p>
+            </li>
+            <li>
+              <p>IoT-Plattform und Sensordatenbank für Schulgebäude aufgebaut; multimodale Baseline-Kalibrierung durchgeführt.</p>
+            </li>
+            <li>
+              <p>Thermisches Komfort-Temperaturfeld-Analyseframework vorgeschlagen, 81 % Genauigkeit und 36 % Energieeinsparung erreicht.</p>
+            </li>
+            <li>
+              <p>Roadshow-Präsentationen und Projekt-Pitches vor Stakeholdern, Investoren und Jurymitgliedern gehalten.</p>
+            </li>
+            <li>
+              <p>Technologie im Produktivbetrieb eingesetzt und aktuell in Nutzung.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Schlüsselwörter</span>: Teamführung, Multimodale Fusion, SAAS-Architektur, Stakeholder-Kommunikation, Projektlieferung</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">DMPA: Model-Poisoning-Angriffe auf dezentrales föderiertes Lernen</div>
+            <div class="resume-entry-description">Forschung zu Model-Poisoning-Angriffsstrategien für dezentrales föderiertes Lernen an der UZH.</div>
+          </div>
+          <div class="resume-entry-date">Jan. 2024–Feb. 2025</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>Paper mit internationalem Forschungsteam co-verfasst (arXiv:2502.04771).</p>
+            </li>
+            <li>
+              <p>Angriffsstrategie für dezentrales föderiertes Lernen durch Berechnung differenzieller Merkmale über adversariale Client-Modelle vorgeschlagen.</p>
+            </li>
+            <li>
+              <p>Experimente über mehrere Datensätze und Angriffsszenarien mit Co-Autoren koordiniert.</p>
+            </li>
+            <li>
+              <p>Methode übertrifft bestehende Model-Poisoning-Angriffe in dezentralen FL-Szenarien nachweislich.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Schlüsselwörter</span>: Föderiertes Lernen, Model Poisoning, Forschungskooperation, Sicherheit</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Gebärdenspracherkennung (ISLR) Forschung</div>
+            <div class="resume-entry-description">Deep-Learning-basierte isolierte Gebärdenspracherkennung an der UZH.</div>
+          </div>
+          <div class="resume-entry-date">Juni 2025–Juni 2026</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>Eigenständige Deep-Learning-Forschung zur isolierten Gebärdenspracherkennung (ISLR) durchgeführt.</p>
+            </li>
+            <li>
+              <p>Video-to-Pose-Pipeline zur Extraktion skelettaler Pose-Repräsentationen aus Gebärdensprachvideos untersucht.</p>
+            </li>
+            <li>
+              <p>Pose-to-Gloss-Mapping zur Übersetzung von Pose-Sequenzen in Gebärdensprach-Glossen erforscht.</p>
+            </li>
+            <li>
+              <p>Umfassende Forschungszusammenfassung mit Vergleich der Ergebnisse beider Richtungen erstellt.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Schlüsselwörter</span>: Deep Learning, Gebärdensprache, Video-to-Pose, Pose-to-Gloss</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">Reddit-Gruppensteuerungs-Automatisierungssystem</div>
+            <div class="resume-entry-description">Automatisierte Multi-Account-Reddit-Operationen mittels Playwright-Browser-Automatisierung.</div>
+          </div>
+          <div class="resume-entry-date">Jan. 2025–Feb. 2025</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>Gruppensteuerungs-Automatisierungssystem für Reddit mit Playwright für Multi-Account-Browser-Orchestrierung entwickelt.</p>
+            </li>
+            <li>
+              <p>Content-Posting, Engagement-Workflows und Account-Verwaltung über mehrere Reddit-Konten gleichzeitig automatisiert.</p>
+            </li>
+            <li>
+              <p>Anti-Erkennungsstrategien und menschenähnliche Verhaltenssimulation zur Wahrung der Account-Integrität implementiert.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Schlüsselwörter</span>: Playwright, Browser-Automatisierung, Gruppensteuerung, Python</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title">SEO-Automatisierungssystem</div>
+            <div class="resume-entry-description">KI-gesteuerte SEO-Automatisierungsplattform mit intelligenten Agenten.</div>
+          </div>
+          <div class="resume-entry-date">März 2025–Jan. 2026</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>Systemarchitektur eigenständig entworfen, Produktanforderungen definiert und den gesamten Entwicklungslebenszyklus gesteuert.</p>
+            </li>
+            <li>
+              <p>KI-basiertes SEO-Automatisierungssystem mit intelligenten Agenten für Keyword-Analyse, Content-Optimierung und Performance-Monitoring aufgebaut.</p>
+            </li>
+            <li>
+              <p>Echtzeit-Analytik-Dashboards für datengetriebene Entscheidungsfindung integriert.</p>
+            </li>
+            <li>
+              <p>Nutzerakquise, Feedback-Sammlung und iterative Produktverbesserung verantwortet.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Schlüsselwörter</span>: KI-Agenten, SEO, Produktverantwortung, Full-Stack</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="resume-entry-title"><a href="https://mycatshome.com">Smart Cat Door – IoT-Plattform</a></div>
+            <div class="resume-entry-description">KI-gestützte IoT-Plattform für intelligente Haustier-Zugangskontrolle.</div>
+          </div>
+          <div class="resume-entry-date">Jan. 2025–Jan. 2026</div>
+        </div>
+        <div class="resume-entry-summary">
+          <ul>
+            <li>
+              <p>End-to-End-Produktentwicklung geleitet — von Hardware-Design über Lieferantenkoordination bis Cloud-Plattform-Deployment.</p>
+            </li>
+            <li>
+              <p>Embedded-KI für Tiererkennung und Verhaltenserkennung mit Micropython und MQTT implementiert.</p>
+            </li>
+            <li>
+              <p>Plattformübergreifende Mobile-App mit Expo (React Native) für Haustierüberwachung und Türsteuerung entwickelt.</p>
+            </li>
+            <li>
+              <p>Gesamten System-Stack aufgebaut: Firmware, Cloud-Kommunikation, Monitoring-Dashboard und mobile Benutzeroberfläche.</p>
+            </li>
+            <li>
+              <p>Domänenübergreifende Koordination zwischen Hardware-Prototyping, Softwareentwicklung und Nutzertests gesteuert.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-labeled-list"><span>Schlüsselwörter</span>: IoT, Embedded-KI, Produktentwicklung, Hardware-Software-Integration</div>
+      </div>
+    </div>
+  </section>
+  <footer class="resume-footer">Generated by <a href="https://yamlresume.dev">YAMLResume</a></footer>
+</body>
+
+</html>
