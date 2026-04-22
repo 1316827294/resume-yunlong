@@ -233,7 +233,7 @@ content:
 
   education:
     - institution: Universität Zürich (UZH)
-      area: Computer Linguistics & Neuroinformatics
+      area: Computerlinguistik & Neuroinformatik
       degree: Master
       startDate: Sep 1, 2022
       endDate: Jun 1, 2026
@@ -271,7 +271,7 @@ content:
         - Optimierungsalgorithmen
         - PyTorch
 
-    - name: IoT, Embedded & Engineering
+    - name: IoT, Embedded & Ingenieurwesen
       level: Advanced
       keywords:
         - Micropython
