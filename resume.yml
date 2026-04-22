@@ -38,7 +38,7 @@ content:
     - name: Independent Startup
       startDate: Jan 1, 2025
       endDate: Jan 1, 2026
-      position: Founder & Product Developer – AI-Enabled Smart Cat Door & IoT System
+      position: Founder & Product Developer – Smart Cat Door & IoT System
       summary: |
         - Led end-to-end product development from concept design through hardware prototyping to cloud deployment.
         - Coordinated across hardware (embedded firmware), software (cloud backend), and user interface development, using Vibe Coding to accelerate full-stack implementation.
@@ -119,6 +119,24 @@ content:
         - Stakeholder Communication
         - Project Delivery
 
+    - name: UZH IFI Q&A Forums
+      description: Full-stack real-time Q&A and social platform for UZH students, developed as a team course project.
+      url: https://github.com/sopra-fs23-group-38/sopra-fs23-38-client
+      startDate: Mar 2023
+      endDate: May 2023
+      summary: |
+        - Built a full-stack web application for real-time question answering, threaded discussion, search, and peer messaging for the UZH community.
+        - Implemented end-to-end search functionality across users, questions, answers, and comments, including SQL-backed backend search logic and a dedicated frontend search page.
+        - Connected frontend and backend flows for registration and login, built the chat page, and integrated comment data handling on the client side.
+        - Helped migrate key interactions from HTTP requests to WebSocket-based real-time updates for chat and answer workflows.
+        - Repositories: [Client](https://github.com/sopra-fs23-group-38/sopra-fs23-38-client) / [Server](https://github.com/sopra-fs23-group-38/sopra-fs23-38-server)
+      keywords:
+        - React
+        - Spring Boot
+        - WebSocket
+        - MySQL
+        - Full-Stack
+
     - name: "DMPA: Model Poisoning Attacks on Decentralized Federated Learning"
       description: Research on model poisoning attack strategies for decentralized federated learning at UZH.
       startDate: Jan 2024
@@ -162,6 +180,23 @@ content:
         - Browser Automation
         - Group Control
         - Python
+
+    - name: MarketWeb3 – Blockchain Marketplace Platform
+      description: Personal Web3 marketplace project combining AI-assisted smart contract generation with blockchain-based transactions.
+      url: https://github.com/1316827294/marketweb3
+      startDate: Dec 2024
+      endDate: Jan 2025
+      summary: |
+        - Built a Next.js 14 and TypeScript based Web3 marketplace prototype for product discovery, wallet-connected purchases, and blockchain transaction flows.
+        - Designed an AI-assisted contract generation workflow supporting multiple contract types, Solidity compilation, deployment flow, and IPFS-based contract storage.
+        - Implemented dual escrow transaction modes for different marketplace scenarios, covering direct contract escrow and platform-mediated settlement.
+        - Integrated modern Web3 infrastructure including RainbowKit, Wagmi, Ethers/Viem, Cloudflare D1, and Pinata to support wallet access, on-chain interaction, and decentralized asset storage.
+      keywords:
+        - Next.js
+        - TypeScript
+        - Web3
+        - Smart Contracts
+        - IPFS
 
     - name: SEO Automation Agent System
       description: AI-driven SEO automation platform using intelligent agents.
@@ -251,7 +286,7 @@ content:
         - Python
         - C/C++
         - JavaScript / TypeScript
-        - Cloudflare (D1, R2, Worker, Network)
+        - Cloudflare D1 / R2 / Workers
         - Oracle Cloud
         - Docker / Nginx
         - N8N
