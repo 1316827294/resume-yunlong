@@ -9,13 +9,12 @@ content:
     email: ddlong68@outlook.com
     url: https://www.linkedin.com/in/yunlong-li-6891a72a3/
     summary: |
-      Ingenieur an der Schnittstelle von KI, IoT und technischen Systemen — vom
-      Algorithmusentwurf bis zur Produktlieferung. Leitung funktionsübergreifender
-      Teams, Koordination mit Industriepartnern und Umsetzung von Projekten vom
-      Forschungskonzept bis zum produktiven Einsatz. Verbindet fundierte technische
-      Kompetenz in ML/KI-Modellierung, eingebetteten Plattformen und datengetriebener
-      Steuerung mit praktischer Erfahrung in Teamaufbau, Stakeholder-Kommunikation
-      und durchgängigem Projektmanagement.
+      Technischer Lösungsingenieur an der Schnittstelle von KI, IoT und technischen Systemen —
+      vom Algorithmusentwurf bis zur Produktlieferung. Leitet funktionsübergreifende Teams durch
+      den gesamten Projektlebenszyklus: Forschungskonzept, Architektur, Implementierung und
+      produktiver Einsatz. Verbindet tiefgehende Expertise in ML/KI-Modellierung, eingebetteten
+      Plattformen und datengetriebener Steuerung mit praktischer Erfahrung in Teamaufbau,
+      Stakeholder-Kommunikation und Lieferkettenmanagement.
   location:
     city: Zürich
     country: Switzerland
@@ -26,10 +25,10 @@ content:
       endDate: Jan 1, 2026
       position: Gründer & Entwickler – SEO-Automatisierungssystem
       summary: |
-        - Gesamten Produktlebenszyklus verantwortet — von Marktanalyse und Systemarchitektur bis Entwicklung und Deployment.
-        - KI-basiertes SEO-Automatisierungssystem mit intelligenten Agenten entworfen und implementiert, unter Einsatz von Vibe Coding für schnelles Prototyping.
-        - Keyword-Analyse, Content-Optimierung und Performance-Monitoring mit Echtzeit-Analytik automatisiert.
-        - Produkt-Roadmap, Nutzerfeedback-Integration und iterative Release-Zyklen eigenständig gesteuert.
+        - Gesamten Produktlebenszyklus verantwortet — Marktanalyse, Systemarchitektur, Entwicklung und Cloud-Deployment.
+        - KI-Agenten-basierte SEO-Automatisierungsplattform für Keyword-Analyse, Content-Optimierung und Echtzeit-Performance-Monitoring architektiert.
+        - Full-Stack-Implementierung mit Vibe Coding für schnelles Prototyping und iterative Auslieferung umgesetzt.
+        - Produkt-Roadmap, Nutzerakquise und feedbackgesteuerte Release-Zyklen gesteuert.
       keywords:
         - KI-Agenten
         - SEO
@@ -41,14 +40,11 @@ content:
       endDate: Jan 1, 2026
       position: Gründer & Produktentwickler – Smart Cat Door & IoT-System
       summary: |
-        - End-to-End-Produktentwicklung geleitet — vom Konzeptentwurf über Hardware-Prototyping bis zum Cloud-Deployment.
-        - Hardware (Embedded-Firmware), Software (Cloud-Backend) und Benutzeroberfläche koordiniert, mit Vibe Coding zur Beschleunigung der Full-Stack-Implementierung.
-        - Embedded-KI für Tiererkennung und Verhaltenserkennung mit Micropython implementiert.
-        - Plattformübergreifende Mobile-App mit Expo (React Native) für Haustierüberwachung und Türsteuerung entwickelt.
-        - Gesamte Lieferkette aufgebaut — von Lieferantensuche und Komponentenbeschaffung bis zur Definition der Produktions-SOP.
-        - Praxiswissen in CE-, RED- und Netzwerkzertifizierungen für den EU-Markteintritt erworben.
-        - China-EU-Logistikkoordination inkl. Versand, Zoll und Lagerhaltung gesteuert.
-        - Lieferantenkommunikation, Komponentenbeschaffung und iteratives Prototypen-Testing verantwortet.
+        - End-to-End-Produktentwicklung über Hardware-Prototyping, Embedded-Firmware, Cloud-Backend und plattformübergreifende Mobile-App geleitet.
+        - On-Device-KI für Tiererkennung und Verhaltenserkennung mit Micropython und MQTT-basierter Gerät-Cloud-Kommunikation implementiert.
+        - React-Native-Mobile-App (Expo) für Echtzeit-Haustierüberwachung und ferngesteuerte Türkontrolle entwickelt.
+        - Gesamte Lieferkette aufgebaut — Lieferantensuche, Komponentenbeschaffung, Produktions-SOP und China-EU-Logistik.
+        - CE-, RED- und Netzwerkzertifizierungen für den EU-Markteintritt gesteuert.
       keywords:
         - IoT
         - Embedded-KI
@@ -61,8 +57,8 @@ content:
       endDate: Jan 1, 2024
       position: Forschungspraktikant Neurowissenschaften – Neuralaufzeichnung
       summary: |
-        - Mikrochirurgie (Kraniotomie) und Implantation von Neuralsonden für In-vivo-Aufzeichnungen durchgeführt.
-        - Mit interdisziplinären Forschungsteams aus Neurowissenschaften und Ingenieurwesen zusammengearbeitet.
+        - Kraniotomie und Implantation von Neuralsonden für elektrophysiologische In-vivo-Aufzeichnungen durchgeführt.
+        - Mit interdisziplinären Teams aus systemischer Neurowissenschaft und Neuralengineering zusammengearbeitet.
       keywords:
         - Neurowissenschaften
         - Neuralaufzeichnung
@@ -73,11 +69,11 @@ content:
       endDate: Jul 1, 2022
       position: Praktikant HLK-Systementwicklung
       summary: |
-        - Betreuenden Professor bei der Koordination mit Industriepartnern für Projektanforderungen und Deployment unterstützt.
-        - Bei der Teamorganisation mitgewirkt und an Forschungsrichtungsplanung und Meilensteinverfolgung teilgenommen.
-        - An der Entwicklung von Algorithmen für multimodale Datenfusion und SAAS-Plattform-Design mitgewirkt.
-        - Bei der Erstellung von Projektpräsentationen und Roadshow-Materialien für Stakeholder unterstützt.
-        - An der Erreichung von COP 7,0 und 36 % Energieeinsparung durch ML- & IoT-Optimierung mitgewirkt.
+        - Mit Industriepartnern zu Projektscoping, Vor-Ort-Deployment und Stakeholder-Berichterstattung koordiniert.
+        - An der Entwicklung multimodaler Datenfusionsalgorithmen und SAAS-Plattform-Architektur mitgewirkt.
+        - Teamabläufe, Forschungsrichtungsplanung und Meilensteinverfolgung organisiert.
+        - ML- und IoT-gestützte HLK-Optimierung unterstützt, die COP 7,0 und 36 % Energieeinsparung erreichte.
+        - Projektpräsentationen und Roadshow-Materialien für Investoren erstellt.
       keywords:
         - HLK
         - IoT
@@ -85,34 +81,49 @@ content:
         - ML-Optimierung
 
   projects:
-    - name: Automatische Schraubmaschine – Bildverarbeitungssystem
-      description: Industrielles Bildverarbeitungssystem für flexible Fertigungs-Schraubmaschinen.
-      startDate: Sep 2019
-      endDate: Jan 2020
+    - name: Gebärdenspracherkennung (ISLR) Forschung
+      description: Deep-Learning-basierte Forschung zur isolierten Gebärdenspracherkennung an der UZH.
+      startDate: Jun 2025
+      endDate: Jun 2026
       summary: |
-        - Bildverarbeitungsmodul als alleiniger Verantwortlicher geleitet, Koordination mit Mechanik- und Embedded-Teams für Systemintegration.
-        - Schraubenlochkoordinaten mittels 3D-Rekonstruktion extrahiert und an den Steuerrechner für automatisiertes Verschrauben übermittelt.
-        - Limitation der 2D-Bildverarbeitung bei unterschiedlichen Positionen und Tiefen der Schraubenlöcher gelöst.
-        - 3D-Modelle mittels Deep Learning und Punktwolkenverarbeitung erstellt; runde Schraubenlöcher mit Halcon identifiziert.
-        - Erkennungsgeschwindigkeit von 130ms auf 30ms verbessert, direkter Durchsatzanstieg der Produktionslinie ermöglicht.
+        - Eigenständige Deep-Learning-Forschung zur isolierten Gebärdenspracherkennung (ISLR) auf semlex, popsign und ASL_citizen durchgeführt.
+        - Video-to-Pose-Pipelines (MediaPipe, ViTPose, SDpose) zur Extraktion skelettaler Pose-Repräsentationen evaluiert.
+        - Pose-to-Gloss-Klassifikatoren (decoupled-gcn, poseconv3d, CLAD_FlowMatching) zur Übersetzung von Pose-Sequenzen in Glossen entwickelt.
+        - Bestes Modell CLAD_FlowMatching_v1 + MediaPipe erreichte 91,78 % Top-1-Genauigkeit auf semlex-Datensatz.
       keywords:
-        - 3D-Rekonstruktion
-        - Punktwolke
-        - Halcon
-        - Teamübergreifende Integration
+        - Deep Learning
+        - Gebärdensprache
+        - Video-to-Pose
+        - Pose-to-Gloss
+        - MediaPipe
+        - CLAD
+
+    - name: "DMPA: Model-Poisoning-Angriffe auf dezentrales föderiertes Lernen"
+      description: Forschung zu Model-Poisoning-Angriffsstrategien für dezentrales föderiertes Lernen an der UZH.
+      startDate: Jan 2024
+      endDate: Feb 2025
+      summary: |
+        - Forschungspaper mit internationalem Team co-verfasst (arXiv:2502.04771).
+        - Neuartige Angriffsstrategie vorgeschlagen, die differenzielle Modellmerkmale über adversariale Clients im dezentralen föderierten Lernen ausnutzt.
+        - Multi-Datensatz-Experimente über verschiedene Angriffsszenarien mit Co-Autoren koordiniert.
+        - Durchgängige Überlegenheit gegenüber state-of-the-art Model-Poisoning-Angriffen in dezentralen FL-Szenarien nachgewiesen.
+      keywords:
+        - Föderiertes Lernen
+        - Model Poisoning
+        - Forschungskooperation
+        - Sicherheit
 
     - name: Energiesparendes Klimaanlagen-Steuerungssystem
       description: Auf multimodaler Datenfusion basierendes HLK-Energiesparsystem.
       startDate: Jan 2020
       endDate: Jul 2022
       summary: |
-        - Team von Grund auf aufgebaut — Mitglieder rekrutiert, Forschungsrichtung definiert und meilensteingesteuerte Projektpläne erstellt.
-        - Algorithmus für multimodale Datenfusion entworfen und SAAS-Plattform für Echtzeit-Monitoring und -Steuerung architektiert.
-        - Engineering-Lieferung durchgängig koordiniert: Unternehmenskommunikation, Auftragsannahme, Vor-Ort-Deployment und Abnahme.
-        - IoT-Plattform und Sensordatenbank für Schulgebäude aufgebaut; multimodale Baseline-Kalibrierung durchgeführt.
-        - Thermisches Komfort-Temperaturfeld-Analyseframework vorgeschlagen, 81 % Genauigkeit und 36 % Energieeinsparung erreicht.
-        - Roadshow-Präsentationen und Projekt-Pitches vor Stakeholdern, Investoren und Jurymitgliedern gehalten.
-        - Technologie im Produktivbetrieb eingesetzt und aktuell in Nutzung.
+        - Projektteam von Grund auf aufgebaut — Mitglieder rekrutiert, Forschungsrichtung definiert und meilensteingesteuerte Lieferung vorangetrieben.
+        - Multimodalen Datenfusionsalgorithmus entworfen und SAAS-Plattform für Echtzeit-HLK-Überwachung und -Steuerung architektiert.
+        - End-to-End-Engineering-Lieferung: Kundenkommunikation, Vor-Ort-Deployment und Projektabnahme.
+        - Thermisches Komfort-Temperaturfeld-Framework vorgeschlagen, das 81 % Vorhersagegenauigkeit und 36 % Energieeinsparung erreichte.
+        - Roadshow-Pitches vor Stakeholdern, Investoren und Jurymitgliedern präsentiert.
+        - System im Produktivbetrieb und aktuell in Nutzung.
       keywords:
         - Teamführung
         - Multimodale Fusion
@@ -120,78 +131,32 @@ content:
         - Stakeholder-Kommunikation
         - Projektlieferung
 
-    - name: UZH IFI Q&A Forums
-      description: Full-Stack-Echtzeitplattform für Fragen, Antworten und soziale Interaktion für UZH-Studierende, entwickelt als Team-Kursprojekt.
-      url: https://github.com/sopra-fs23-group-38/sopra-fs23-38-client
-      startDate: Mar 2023
-      endDate: May 2023
+    - name: Automatische Schraubmaschine – Bildverarbeitungssystem
+      description: Industrielles Bildverarbeitungssystem für flexible Fertigungs-Schraubmaschinen.
+      startDate: Sep 2019
+      endDate: Jan 2020
       summary: |
-        - Full-Stack-Webanwendung für Echtzeit-Fragen und -Antworten, Thread-Diskussionen, Suche und Peer-Messaging für die UZH-Community entwickelt.
-        - End-to-End-Suchfunktion über Nutzer, Fragen, Antworten und Kommentare implementiert, inklusive SQL-basierter Backend-Suchlogik und dedizierter Frontend-Suchseite.
-        - Frontend- und Backend-Flows für Registrierung und Login verbunden, die Chat-Seite aufgebaut und die Verarbeitung von Kommentardaten auf Client-Seite integriert.
-        - Bei der Umstellung zentraler Interaktionen von HTTP-Requests auf WebSocket-basierte Echtzeit-Updates für Chat- und Antwort-Workflows mitgewirkt.
-        - Repositories: [Client](https://github.com/sopra-fs23-group-38/sopra-fs23-38-client) / [Server](https://github.com/sopra-fs23-group-38/sopra-fs23-38-server)
+        - Bildverarbeitungsmodul eigenverantwortlich geleitet, Koordination mit Mechanik- und Embedded-Teams für Systemintegration.
+        - Schraubenlochkoordinaten mittels 3D-Rekonstruktion extrahiert und an die SPS für automatisiertes Verschrauben übermittelt.
+        - Einschränkung der 2D-Bildverarbeitung bei variierenden Schraubenlochpositionen und -tiefen gelöst.
+        - 3D-Modelle mit Deep Learning und Punktwolkenverarbeitung erstellt; runde Schraubenlöcher mit Halcon identifiziert.
+        - Erkennungslatenz von 130 ms auf 30 ms reduziert, direkte Steigerung des Produktionsliniendurchsatzes ermöglicht.
       keywords:
-        - React
-        - Spring Boot
-        - WebSocket
-        - MySQL
-        - Full-Stack
-
-    - name: "DMPA: Model-Poisoning-Angriffe auf dezentrales föderiertes Lernen"
-      description: Forschung zu Model-Poisoning-Angriffsstrategien für dezentrales föderiertes Lernen an der UZH.
-      startDate: Jan 2024
-      endDate: Feb 2025
-      summary: |
-        - Paper mit internationalem Forschungsteam co-verfasst (arXiv:2502.04771).
-        - Angriffsstrategie für dezentrales föderiertes Lernen durch Berechnung differenzieller Merkmale über adversariale Client-Modelle vorgeschlagen.
-        - Experimente über mehrere Datensätze und Angriffsszenarien mit Co-Autoren koordiniert.
-        - Methode übertrifft bestehende Model-Poisoning-Angriffe in dezentralen FL-Szenarien nachweislich.
-      keywords:
-        - Föderiertes Lernen
-        - Model Poisoning
-        - Forschungskooperation
-        - Sicherheit
-
-    - name: Gebärdenspracherkennung (ISLR) Forschung
-      description: Deep-Learning-basierte isolierte Gebärdenspracherkennung an der UZH.
-      startDate: Jun 2025
-      endDate: Jun 2026
-      summary: |
-        - Eigenständige Deep-Learning-Forschung zur isolierten Gebärdenspracherkennung (ISLR) durchgeführt.
-        - Video-to-Pose-Pipeline zur Extraktion skelettaler Pose-Repräsentationen aus Gebärdensprachvideos untersucht.
-        - Pose-to-Gloss-Mapping zur Übersetzung von Pose-Sequenzen in Gebärdensprach-Glossen erforscht.
-        - Umfassende Forschungszusammenfassung mit Vergleich der Ergebnisse beider Richtungen erstellt.
-      keywords:
-        - Deep Learning
-        - Gebärdensprache
-        - Video-to-Pose
-        - Pose-to-Gloss
-
-    - name: Reddit-Gruppensteuerungs-Automatisierungssystem
-      description: Automatisierte Multi-Account-Reddit-Operationen mittels Playwright-Browser-Automatisierung.
-      startDate: Jan 2025
-      endDate: Feb 2025
-      summary: |
-        - Gruppensteuerungs-Automatisierungssystem für Reddit mit Playwright für Multi-Account-Browser-Orchestrierung entwickelt.
-        - Content-Posting, Engagement-Workflows und Account-Verwaltung über mehrere Reddit-Konten gleichzeitig automatisiert.
-        - Anti-Erkennungsstrategien und menschenähnliche Verhaltenssimulation zur Wahrung der Account-Integrität implementiert.
-      keywords:
-        - Playwright
-        - Browser-Automatisierung
-        - Gruppensteuerung
-        - Python
+        - 3D-Rekonstruktion
+        - Punktwolke
+        - Halcon
+        - Teamübergreifende Integration
 
     - name: MarketWeb3 – Blockchain-Marktplatzplattform
-      description: Persönliches Web3-Marktplatzprojekt mit KI-gestützter Smart-Contract-Generierung und Blockchain-Transaktionen.
+      description: Persönlicher Web3-Marktplatz mit KI-gestützter Smart-Contract-Generierung und On-Chain-Transaktionen.
       url: https://github.com/1316827294/marketweb3
       startDate: Dec 2024
       endDate: Jan 2025
       summary: |
-        - Web3-Marktplatz-Prototyp auf Basis von Next.js 14 und TypeScript für Produktsuche, Wallet-verbundene Käufe und blockchainbasierte Transaktionsabläufe entwickelt.
-        - KI-gestützten Workflow zur Contract-Generierung entworfen, einschließlich Unterstützung mehrerer Contract-Typen, Solidity-Kompilierung, Deployment-Ablauf und IPFS-basierter Vertragsspeicherung.
-        - Zwei Escrow-Transaktionsmodi für unterschiedliche Marktplatzszenarien implementiert: direktes Contract-Escrow und plattformvermittelte Abwicklung.
-        - Moderne Web3-Infrastruktur mit RainbowKit, Wagmi, Ethers/Viem, Cloudflare D1 und Pinata integriert, um Wallet-Zugriff, On-Chain-Interaktion und dezentrale Datenspeicherung zu unterstützen.
+        - Next.js-14- und TypeScript-basierten Web3-Marktplatz mit Produktsuche, Wallet-verbundenem Checkout und On-Chain-Transaktionsflüssen entwickelt.
+        - KI-gestützte Smart-Contract-Generierungspipeline mit Unterstützung mehrerer Vertragstypen, Solidity-Kompilierung und IPFS-basiertem Deployment entworfen.
+        - Zwei Escrow-Modi implementiert: direktes Contract-Escrow und plattformvermittelte Abwicklung für unterschiedliche Marktplatzszenarien.
+        - RainbowKit, Wagmi, Ethers/Viem, Cloudflare D1 und Pinata für durchgängige Web3-Infrastruktur integriert.
       keywords:
         - Next.js
         - TypeScript
@@ -199,37 +164,37 @@ content:
         - Smart Contracts
         - IPFS
 
-    - name: SEO-Automatisierungssystem
-      description: KI-gesteuerte SEO-Automatisierungsplattform mit intelligenten Agenten.
-      startDate: Mar 2025
-      endDate: Jan 2026
-      summary: |
-        - Systemarchitektur eigenständig entworfen, Produktanforderungen definiert und den gesamten Entwicklungslebenszyklus gesteuert.
-        - KI-basiertes SEO-Automatisierungssystem mit intelligenten Agenten für Keyword-Analyse, Content-Optimierung und Performance-Monitoring aufgebaut.
-        - Echtzeit-Analytik-Dashboards für datengetriebene Entscheidungsfindung integriert.
-        - Nutzerakquise, Feedback-Sammlung und iterative Produktverbesserung verantwortet.
-      keywords:
-        - KI-Agenten
-        - SEO
-        - Produktverantwortung
-        - Full-Stack
-
-    - name: Smart Cat Door – IoT-Plattform
-      description: KI-gestützte IoT-Plattform für intelligente Haustier-Zugangskontrolle.
-      url: https://mycatshome.com
+    - name: Reddit-Gruppensteuerungs-Automatisierungssystem
+      description: Automatisierte Multi-Account-Reddit-Operationen mittels Playwright-Browser-Automatisierung.
       startDate: Jan 2025
-      endDate: Jan 2026
+      endDate: Feb 2025
       summary: |
-        - End-to-End-Produktentwicklung geleitet — von Hardware-Design über Lieferantenkoordination bis Cloud-Plattform-Deployment.
-        - Embedded-KI für Tiererkennung und Verhaltenserkennung mit Micropython und MQTT implementiert.
-        - Plattformübergreifende Mobile-App mit Expo (React Native) für Haustierüberwachung und Türsteuerung entwickelt.
-        - Gesamten System-Stack aufgebaut: Firmware, Cloud-Kommunikation, Monitoring-Dashboard und mobile Benutzeroberfläche.
-        - Domänenübergreifende Koordination zwischen Hardware-Prototyping, Softwareentwicklung und Nutzertests gesteuert.
+        - Multi-Account-Automatisierungssystem entwickelt, das 10 Reddit-Konten via Playwright mit vollständig autonomer Ausführung orchestriert.
+        - Content-Posting, Engagement-Workflows und kontenübergreifendes Management automatisiert.
+        - Anti-Erkennungsstrategien und menschenähnliche Verhaltenssimulation zur Wahrung der Account-Integrität implementiert.
       keywords:
-        - IoT
-        - Embedded-KI
-        - Produktentwicklung
-        - Hardware-Software-Integration
+        - Playwright
+        - Browser-Automatisierung
+        - Gruppensteuerung
+        - Python
+
+    - name: UZH IFI Q&A Foren
+      description: Full-Stack-Echtzeitplattform für Fragen, Antworten und soziale Interaktion für UZH-Studierende, entwickelt als Team-Kursprojekt.
+      url: https://github.com/sopra-fs23-group-38/sopra-fs23-38-client
+      startDate: Mar 2023
+      endDate: May 2023
+      summary: |
+        - Full-Stack-Echtzeit-Q&A-Plattform mit Thread-Diskussionen, Volltextsuche und Peer-Messaging für die UZH-Community entwickelt.
+        - End-to-End-Suchindizierung für Nutzer, Fragen, Antworten und Kommentare mit MySQL-basierter Abfragelogik implementiert.
+        - Registrierungs-, Login-, Chat- und Kommentarsubsysteme entwickelt, die React-Frontend mit Spring-Boot-Backend verbinden.
+        - HTTP-Polling durch WebSocket-basierte Echtzeit-Updates für Chat- und Antwort-Interaktionen ersetzt.
+        - Repositories: [Client](https://github.com/sopra-fs23-group-38/sopra-fs23-38-client) / [Server](https://github.com/sopra-fs23-group-38/sopra-fs23-38-server)
+      keywords:
+        - React
+        - Spring Boot
+        - WebSocket
+        - MySQL
+        - Full-Stack
 
   education:
     - institution: Universität Zürich (UZH)

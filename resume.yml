@@ -9,12 +9,12 @@ content:
     email: ddlong68@outlook.com
     url: https://www.linkedin.com/in/yunlong-li-6891a72a3/
     summary: |
-      Engineer bridging AI, IoT, and engineering systems — from algorithm design to
-      product delivery. Led cross-functional teams, coordinated with industry partners,
-      and drove projects from research concept to deployed production systems. Combines
-      strong technical depth in ML/AI modeling, embedded platforms, and data-driven
-      control with hands-on experience in team building, stakeholder communication,
-      and end-to-end project management.
+      Technical Solutions Engineer bridging AI, IoT, and engineering systems — from
+      algorithm design to product delivery. Leads cross-functional teams through the full
+      project lifecycle: research concept, architecture, implementation, and production
+      deployment. Combines deep expertise in ML/AI modeling, embedded platforms, and
+      data-driven control with hands-on experience in team building, stakeholder
+      communication, and supply chain management.
   location:
     city: Zurich
     country: Switzerland
@@ -25,10 +25,10 @@ content:
       endDate: Jan 1, 2026
       position: Founder & Developer – SEO Automation Agent System
       summary: |
-        - Founded and drove the full product lifecycle — from market research and system architecture to development and deployment.
-        - Designed and implemented an AI-based SEO automation system using intelligent agents, leveraging Vibe Coding for rapid prototyping and iterative development.
-        - Automated keyword analysis, content optimization, and performance monitoring with real-time analytics.
-        - Independently managed product roadmap, user feedback integration, and iterative release cycles.
+        - Founded and drove the full product lifecycle — market research, system architecture, development, and cloud deployment.
+        - Architected an AI agent-based SEO automation platform covering keyword analysis, content optimization, and real-time performance monitoring.
+        - Built full-stack implementation using Vibe Coding for rapid prototyping and iterative delivery.
+        - Managed product roadmap, user acquisition, and feedback-driven release cycles.
       keywords:
         - AI Agents
         - SEO
@@ -40,14 +40,11 @@ content:
       endDate: Jan 1, 2026
       position: Founder & Product Developer – Smart Cat Door & IoT System
       summary: |
-        - Led end-to-end product development from concept design through hardware prototyping to cloud deployment.
-        - Coordinated across hardware (embedded firmware), software (cloud backend), and user interface development, using Vibe Coding to accelerate full-stack implementation.
-        - Implemented embedded AI for animal recognition and behavior detection using Micropython.
-        - Developed a cross-platform mobile app using Expo (React Native) for pet monitoring and door control.
-        - Built the entire supply chain pipeline — from supplier sourcing and component procurement to production SOP definition.
-        - Gained hands-on knowledge of CE, RED, and network certifications required for EU market entry.
-        - Managed China-to-EU logistics coordination including shipping, customs, and warehousing workflows.
-        - Managed supplier communication, component sourcing, and iterative prototype testing.
+        - Led end-to-end product development spanning hardware prototyping, embedded firmware, cloud backend, and cross-platform mobile app.
+        - Implemented on-device AI for animal recognition and behavior detection using Micropython and MQTT-based device-cloud communication.
+        - Developed a React Native (Expo) mobile app for real-time pet monitoring and remote door control.
+        - Built the full supply chain pipeline — supplier sourcing, component procurement, production SOP definition, and China-to-EU logistics.
+        - Managed CE, RED, and network certification compliance for EU market entry.
       keywords:
         - IoT
         - Embedded AI
@@ -60,8 +57,8 @@ content:
       endDate: Jan 1, 2024
       position: Neuroscience Research Intern – In Vivo Neural Recording
       summary: |
-        - Performed microsurgery (craniotomy) and neural probe implantation for in vivo recordings.
-        - Collaborated with cross-disciplinary research teams spanning neuroscience and engineering.
+        - Performed craniotomy and neural probe implantation for in vivo electrophysiological recordings.
+        - Collaborated with cross-disciplinary teams spanning systems neuroscience and neural engineering.
       keywords:
         - Neuroscience
         - Neural Recording
@@ -72,11 +69,11 @@ content:
       endDate: Jul 1, 2022
       position: HVAC System Development Intern
       summary: |
-        - Assisted supervising professor in coordinating with industry partners for project requirements and deployment.
-        - Supported team organization and participated in research direction planning and milestone tracking.
-        - Contributed to multi-modal data fusion algorithm development and SAAS platform design.
-        - Helped prepare project presentations and roadshow materials for stakeholders.
-        - Participated in achieving COP of 7.0 and 36% energy savings through ML & IoT-driven optimization.
+        - Coordinated with industry partners on project scoping, on-site deployment, and stakeholder reporting.
+        - Contributed to multi-modal data fusion algorithm design and SAAS platform architecture.
+        - Organized team workflows, research direction planning, and milestone tracking.
+        - Supported ML and IoT-driven HVAC optimization that achieved COP 7.0 and 36% energy savings.
+        - Prepared project presentations and investor roadshow materials.
       keywords:
         - HVAC
         - IoT
@@ -84,34 +81,49 @@ content:
         - ML Optimization
 
   projects:
-    - name: Automatic Locking Screw Machine – Vision System
-      description: Industrial vision system for flexible manufacturing screw machines.
-      startDate: Sep 2019
-      endDate: Jan 2020
+    - name: Sign Language Recognition (ISLR) Research
+      description: Deep learning based Isolated Sign Language Recognition research at UZH.
+      startDate: Jun 2025
+      endDate: Jun 2026
       summary: |
-        - Led the vision module as the sole owner, coordinating with the mechanical and embedded teams for system integration.
-        - Extracted screw hole coordinates using 3D reconstruction and sent them to the lower computer for automated locking.
-        - Solved the limitation of 2D vision being unable to recognize screw holes at varying positions and depths.
-        - Constructed 3D models using deep learning and point cloud processing; identified round screw holes using Halcon.
-        - Improved screw hole recognition speed from 130ms to 30ms, directly enabling production line throughput increase.
+        - Conducted independent deep learning research on ISLR across semlex, popsign, and ASL_citizen datasets.
+        - Evaluated Video-to-Pose pipelines (MediaPipe, ViTPose, SDpose) for extracting skeletal pose representations from sign language videos.
+        - Developed Pose-to-Gloss classifiers (decoupled-gcn, poseconv3d, CLAD_FlowMatching) for translating pose sequences into glosses.
+        - Best model CLAD_FlowMatching_v1 + MediaPipe achieved 91.78% top-1 accuracy on semlex dataset.
       keywords:
-        - 3D Reconstruction
-        - Point Cloud
-        - Halcon
-        - Cross-team Integration
+        - Deep Learning
+        - Sign Language
+        - Video-to-Pose
+        - Pose-to-Gloss
+        - MediaPipe
+        - CLAD
+
+    - name: "DMPA: Model Poisoning Attacks on Decentralized Federated Learning"
+      description: Research on model poisoning attack strategies for decentralized federated learning at UZH.
+      startDate: Jan 2024
+      endDate: Feb 2025
+      summary: |
+        - Co-authored a research paper with an international team (arXiv:2502.04771).
+        - Proposed a novel attack strategy exploiting differential model characteristics across adversarial clients in decentralized federated learning.
+        - Coordinated multi-dataset experiments spanning diverse attack scenarios with co-authors.
+        - Demonstrated consistent outperformance against state-of-the-art model poisoning attacks in decentralized FL settings.
+      keywords:
+        - Federated Learning
+        - Model Poisoning
+        - Research Collaboration
+        - Security
 
     - name: Central Air-Conditioning Energy-Saving Control System
       description: Multi-modal data fusion based HVAC energy-saving control system.
       startDate: Jan 2020
       endDate: Jul 2022
       summary: |
-        - Led team building from scratch — recruited members, defined research direction, and set milestone-driven project plans.
-        - Designed the multi-modal data fusion algorithm and architected the SAAS platform for real-time monitoring and control.
-        - Coordinated engineering delivery end-to-end: company communication, order reception, on-site deployment, and acceptance.
-        - Built an IoT platform and sensor database for school buildings; conducted multi-modal baseline calibration.
-        - Proposed a thermal comfort temperature field analysis framework, achieving 81% accuracy and 36% energy savings.
-        - Delivered roadshow presentations and project pitches to stakeholders, investors, and competition judges.
-        - Technology deployed to production and currently in active use.
+        - Built the project team from scratch — recruited members, defined research direction, and drove milestone-based delivery.
+        - Designed a multi-modal data fusion algorithm and architected a SAAS platform for real-time HVAC monitoring and control.
+        - Delivered end-to-end engineering: customer communication, on-site deployment, and project acceptance.
+        - Proposed a thermal comfort temperature field framework that achieved 81% prediction accuracy and 36% energy savings.
+        - Presented roadshow pitches to stakeholders, investors, and competition judges.
+        - System deployed to production and currently in active use.
       keywords:
         - Team Leadership
         - Multi-modal Fusion
@@ -119,78 +131,32 @@ content:
         - Stakeholder Communication
         - Project Delivery
 
-    - name: UZH IFI Q&A Forums
-      description: Full-stack real-time Q&A and social platform for UZH students, developed as a team course project.
-      url: https://github.com/sopra-fs23-group-38/sopra-fs23-38-client
-      startDate: Mar 2023
-      endDate: May 2023
+    - name: Automatic Locking Screw Machine – Vision System
+      description: Industrial vision system for flexible manufacturing screw machines.
+      startDate: Sep 2019
+      endDate: Jan 2020
       summary: |
-        - Built a full-stack web application for real-time question answering, threaded discussion, search, and peer messaging for the UZH community.
-        - Implemented end-to-end search functionality across users, questions, answers, and comments, including SQL-backed backend search logic and a dedicated frontend search page.
-        - Connected frontend and backend flows for registration and login, built the chat page, and integrated comment data handling on the client side.
-        - Helped migrate key interactions from HTTP requests to WebSocket-based real-time updates for chat and answer workflows.
-        - Repositories: [Client](https://github.com/sopra-fs23-group-38/sopra-fs23-38-client) / [Server](https://github.com/sopra-fs23-group-38/sopra-fs23-38-server)
+        - Owned the vision module end-to-end, coordinating with mechanical and embedded teams for system integration.
+        - Extracted screw hole coordinates via 3D reconstruction and transmitted them to the PLC for automated locking.
+        - Solved the limitation of 2D vision failing to recognize screw holes at varying positions and depths.
+        - Built 3D models using deep learning and point cloud processing; identified round screw holes using Halcon.
+        - Reduced recognition latency from 130ms to 30ms, directly increasing production line throughput.
       keywords:
-        - React
-        - Spring Boot
-        - WebSocket
-        - MySQL
-        - Full-Stack
-
-    - name: "DMPA: Model Poisoning Attacks on Decentralized Federated Learning"
-      description: Research on model poisoning attack strategies for decentralized federated learning at UZH.
-      startDate: Jan 2024
-      endDate: Feb 2025
-      summary: |
-        - Co-authored paper with an international research team (arXiv:2502.04771).
-        - Proposed an attack strategy targeting decentralized federated learning by computing differential characteristics across adversarial client models.
-        - Coordinated experiments across multiple datasets and attack scenarios with co-authors.
-        - Demonstrated the method consistently outperforms existing model poisoning attacks in decentralized FL settings.
-      keywords:
-        - Federated Learning
-        - Model Poisoning
-        - Research Collaboration
-        - Security
-
-    - name: Sign Language Recognition (ISLR) Research
-      description: Deep learning based Isolated Sign Language Recognition research at UZH.
-      startDate: Jun 2025
-      endDate: Jun 2026
-      summary: |
-        - Conducted independent deep learning research on Isolated Sign Language Recognition (ISLR).
-        - Investigated Video-to-Pose pipeline for extracting skeletal pose representations from sign language videos.
-        - Researched Pose-to-Gloss mapping for translating pose sequences into sign language glosses.
-        - Produced a comprehensive research summary consolidating and comparing findings across both directions.
-      keywords:
-        - Deep Learning
-        - Sign Language
-        - Video-to-Pose
-        - Pose-to-Gloss
-
-    - name: Reddit Group-Control Automation System
-      description: Automated multi-account Reddit operations using Playwright browser automation.
-      startDate: Jan 2025
-      endDate: Feb 2025
-      summary: |
-        - Built a group-control automation system for Reddit using Playwright for multi-account browser orchestration.
-        - Automated content posting, engagement workflows, and account management across multiple Reddit accounts simultaneously.
-        - Implemented anti-detection strategies and human-like behavior simulation to maintain account integrity.
-      keywords:
-        - Playwright
-        - Browser Automation
-        - Group Control
-        - Python
+        - 3D Reconstruction
+        - Point Cloud
+        - Halcon
+        - Cross-team Integration
 
     - name: MarketWeb3 – Blockchain Marketplace Platform
-      description: Personal Web3 marketplace project combining AI-assisted smart contract generation with blockchain-based transactions.
+      description: Personal Web3 marketplace combining AI-assisted smart contract generation with on-chain transactions.
       url: https://github.com/1316827294/marketweb3
       startDate: Dec 2024
       endDate: Jan 2025
       summary: |
-        - Built a Next.js 14 and TypeScript based Web3 marketplace prototype for product discovery, wallet-connected purchases, and blockchain transaction flows.
-        - Designed an AI-assisted contract generation workflow supporting multiple contract types, Solidity compilation, deployment flow, and IPFS-based contract storage.
-        - Implemented dual escrow transaction modes for different marketplace scenarios, covering direct contract escrow and platform-mediated settlement.
-        - Integrated modern Web3 infrastructure including RainbowKit, Wagmi, Ethers/Viem, Cloudflare D1, and Pinata to support wallet access, on-chain interaction, and decentralized asset storage.
+        - Built a Next.js 14 and TypeScript Web3 marketplace with product discovery, wallet-connected checkout, and on-chain transaction flows.
+        - Designed an AI-assisted smart contract generation pipeline supporting multiple contract types, Solidity compilation, and IPFS-based deployment.
+        - Implemented dual escrow modes: direct contract escrow and platform-mediated settlement, covering distinct marketplace scenarios.
+        - Integrated RainbowKit, Wagmi, Ethers/Viem, Cloudflare D1, and Pinata for end-to-end Web3 infrastructure.
       keywords:
         - Next.js
         - TypeScript
@@ -198,37 +164,37 @@ content:
         - Smart Contracts
         - IPFS
 
-    - name: SEO Automation Agent System
-      description: AI-driven SEO automation platform using intelligent agents.
-      startDate: Mar 2025
-      endDate: Jan 2026
-      summary: |
-        - Independently designed system architecture, defined product requirements, and managed the full development lifecycle.
-        - Built an AI-based SEO automation system using intelligent agents for keyword analysis, content optimization, and performance monitoring.
-        - Integrated real-time analytics dashboards for data-driven decision making.
-        - Handled user acquisition, feedback collection, and iterative product improvement.
-      keywords:
-        - AI Agents
-        - SEO
-        - Product Ownership
-        - Full-Stack
-
-    - name: Smart Cat Door – IoT Platform
-      description: AI-powered IoT platform for intelligent pet access control.
-      url: https://mycatshome.com
+    - name: Reddit Group-Control Automation System
+      description: Automated multi-account Reddit operations using Playwright browser automation.
       startDate: Jan 2025
-      endDate: Jan 2026
+      endDate: Feb 2025
       summary: |
-        - Led end-to-end product development — from hardware design, supplier coordination, to cloud platform deployment.
-        - Implemented embedded AI for animal recognition and behavior detection using Micropython and MQTT.
-        - Developed a cross-platform mobile app using Expo (React Native) for pet monitoring and door control.
-        - Built the full system stack: firmware, cloud communication, monitoring dashboard, and mobile user interface.
-        - Managed cross-domain coordination between hardware prototyping, software development, and user testing.
+        - Built a multi-account automation system orchestrating 10 Reddit accounts via Playwright with fully autonomous execution.
+        - Automated content posting, engagement workflows, and cross-account management.
+        - Implemented anti-detection strategies and human-like behavior simulation to preserve account integrity.
       keywords:
-        - IoT
-        - Embedded AI
-        - Product Development
-        - Hardware-Software Integration
+        - Playwright
+        - Browser Automation
+        - Group Control
+        - Python
+
+    - name: UZH IFI Q&A Forums
+      description: Full-stack real-time Q&A and social platform for UZH students, developed as a team course project.
+      url: https://github.com/sopra-fs23-group-38/sopra-fs23-38-client
+      startDate: Mar 2023
+      endDate: May 2023
+      summary: |
+        - Built a full-stack real-time Q&A platform with threaded discussions, full-text search, and peer messaging for the UZH student community.
+        - Implemented end-to-end search indexing users, questions, answers, and comments using MySQL-backed query logic.
+        - Developed registration, login, chat, and comment subsystems connecting React frontend to Spring Boot backend.
+        - Replaced HTTP polling with WebSocket-based real-time updates for chat and answer interactions.
+        - Repositories: [Client](https://github.com/sopra-fs23-group-38/sopra-fs23-38-client) / [Server](https://github.com/sopra-fs23-group-38/sopra-fs23-38-server)
+      keywords:
+        - React
+        - Spring Boot
+        - WebSocket
+        - MySQL
+        - Full-Stack
 
   education:
     - institution: University of Zurich (UZH)
