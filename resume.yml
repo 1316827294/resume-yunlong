@@ -4,267 +4,244 @@
 content:
   basics:
     name: Yunlong Li
-    headline: Technical Solutions Engineer
+    headline: Senior AI Solutions Engineer | AI & Machine Learning Architect
     phone: "+41 79 539 72 86"
     email: ddlong68@outlook.com
     url: https://www.linkedin.com/in/yunlong-li-6891a72a3/
     summary: |
-      Technical Solutions Engineer bridging AI, IoT, and engineering systems — from
-      algorithm design to product delivery. Leads cross-functional teams through the full
-      project lifecycle: research concept, architecture, implementation, and production
-      deployment. Combines deep expertise in ML/AI modeling, embedded platforms, and
-      data-driven control with hands-on experience in team building, stakeholder
-      communication, and supply chain management.
+      Senior AI Solutions Engineer & Researcher with extensive experience architecting and deploying
+      end-to-end AI/ML systems — spanning advanced deep learning research (Generative Models, Flow Matching,
+      Graph Neural Networks, Computer Vision, and Decentralized Federated Learning) to production-grade
+      industrial solution delivery, edge AI integration, and cloud-native backends. Proven track record in
+      translating complex algorithmic breakthroughs into scalable real-world products, leading
+      cross-functional engineering teams, and managing the entire lifecycle from mathematical formulation
+      to client acceptance and deployment.
   location:
     city: Zurich
     country: Switzerland
 
   work:
+    - name: Independent Startup (MyCatsHome)
+      startDate: Jan 1, 2025
+      endDate: Jan 1, 2026
+      position: Founder & AI Solutions Lead – MyCatsHome AIoT
+      url: https://mycatshome.com
+      summary: |
+        - Architected an end-to-end AIoT smart pet ecosystem (mycatshome.com) connecting edge vision, cloud microservices, and mobile apps.
+        - Engineered on-device vision pipeline for real-time animal behavior and prey interception (>99% accuracy across 10,000+ images) with sub-second inference.
+        - Implemented veterinary health AI via Feline Grimace Scale (FGS: 5 facial action units) and Ballistocardiogram (BCG) micro-vibration vital sign sensing.
+        - Developed low-power IoT stack using MicroPython and MQTT over TLS, interfacing edge devices with Cloudflare D1 and React Native app under GDPR/Swiss privacy.
+        - Directed hardware prototyping (CAD/PCB), BOM sourcing, factory assembly SOPs, and CE/RED regulatory compliance.
+      keywords:
+        - Edge AI
+        - Computer Vision
+        - MicroPython
+        - MQTT & IoT Protocols
+        - Multimodal Fusion
+        - FGS & BCG Health AI
+        - React Native
+        - Cloudflare Serverless
+
     - name: Independent Startup
       startDate: Mar 1, 2025
       endDate: Jan 1, 2026
-      position: Founder & Developer – SEO Automation Agent System
+      position: Founder & Lead AI Engineer – Autonomous Multi-Agent SEO Platform
       summary: |
-        - Founded and drove the full product lifecycle — market research, system architecture, development, and cloud deployment.
-        - Architected an AI agent-based SEO automation platform covering keyword analysis, content optimization, and real-time performance monitoring.
-        - Built full-stack implementation using Vibe Coding for rapid prototyping and iterative delivery.
-        - Managed product roadmap, user acquisition, and feedback-driven release cycles.
+        - Architected a scalable autonomous multi-agent platform using LLM orchestration, structured RAG pipelines, and automated reasoning for continuous keyword discovery, content generation, and SERP competitive analysis.
+        - Built asynchronous web scraping, vector indexing, and real-time rank tracking workflows with automated prompt optimization and feedback-driven refinement loops.
+        - Implemented full-stack responsive web UI and cloud deployment on serverless infrastructure, enabling automated content pipelines with low latency.
+        - Managed product roadmap, user acquisition strategies, and feedback-driven release cycles.
       keywords:
         - AI Agents
-        - SEO
-        - Vibe Coding
-        - Product Management
-
-    - name: Independent Startup
-      startDate: Jan 1, 2025
-      endDate: Jan 1, 2026
-      position: Founder & Product Developer – Smart Cat Door & IoT System
-      summary: |
-        - Led end-to-end product development spanning hardware prototyping, embedded firmware, cloud backend, and cross-platform mobile app.
-        - Implemented on-device AI for animal recognition and behavior detection using Micropython and MQTT-based device-cloud communication.
-        - Developed a React Native (Expo) mobile app for real-time pet monitoring and remote door control.
-        - Built the full supply chain pipeline — supplier sourcing, component procurement, production SOP definition, and China-to-EU logistics.
-        - Managed CE, RED, and network certification compliance for EU market entry.
-      keywords:
-        - IoT
-        - Embedded AI
-        - Supply Chain
-        - CE/RED Certification
-        - Product Development
+        - LLM Orchestration
+        - RAG
+        - Prompt Engineering
+        - Python
+        - FastAPI
+        - Vector DB
+        - Serverless
 
     - name: HKUST (Guangzhou)
       startDate: Sep 1, 2023
       endDate: Jan 1, 2024
-      position: Neuroscience Research Intern – In Vivo Neural Recording
+      position: AI & Neural Engineering Research Intern
       summary: |
-        - Performed craniotomy and neural probe implantation for in vivo electrophysiological recordings.
-        - Collaborated with cross-disciplinary teams spanning systems neuroscience and neural engineering.
+        - Executed high-density in vivo electrophysiological recording pipelines and craniotomy procedures for neural signal acquisition.
+        - Applied machine learning and time-series signal processing algorithms to analyze spike trains, local field potentials (LFPs), and neural decoding dynamics.
+        - Collaborated within cross-disciplinary teams bridging systems neuroscience, computational modeling, and neural engineering.
       keywords:
-        - Neuroscience
-        - Neural Recording
-        - Cross-disciplinary Research
+        - Neural Signal Processing
+        - In Vivo Electrophysiology
+        - Time-Series ML
+        - Python
+        - Neural Decoding
 
     - name: Guangzhou Design Institute
       startDate: Sep 1, 2020
       endDate: Jul 1, 2022
-      position: HVAC System Development Intern
+      position: Industrial AI & IoT Solutions Engineer Intern
       summary: |
-        - Coordinated with industry partners on project scoping, on-site deployment, and stakeholder reporting.
-        - Contributed to multi-modal data fusion algorithm design and SAAS platform architecture.
-        - Organized team workflows, research direction planning, and milestone tracking.
-        - Supported ML and IoT-driven HVAC optimization that achieved COP 7.0 and 36% energy savings.
-        - Prepared project presentations and investor roadshow materials.
+        - Co-authored research published in Frontiers in Energy Research (JCR Q2); engineered a multimodal scene data fusion algorithm coupling spatial temperature fields with building sensor streams.
+        - Developed predictive ML models (XGBoost, CatBoost) and closed-loop control algorithms (PID/DDC) that achieved COP 7.0 and 36% energy savings in commercial HVAC installations.
+        - Architected an end-to-end IoT data ingestion and visualization platform for live HVAC telemetry, managing on-site deployment, client acceptance testing, and stakeholder technical presentations.
+        - Delivered roadshow presentations and technical documentation to industry partners, enterprise clients, and investors.
       keywords:
-        - HVAC
-        - IoT
-        - Industry Coordination
-        - ML Optimization
+        - Industrial AI
+        - Multimodal Data Fusion
+        - XGBoost
+        - Predictive Control
+        - IoT Telemetry
+        - SaaS Architecture
 
   projects:
-    - name: Sign Language Recognition (ISLR) Research
-      description: Deep learning based Isolated Sign Language Recognition research at UZH.
+    - name: "ISLR: Multimodal Flow-Matching & Pose Framework"
+      description: State-of-the-art multimodal deep learning framework and controlled pose estimation research for sign language recognition at UZH.
       startDate: Jun 2025
       endDate: Jun 2026
       summary: |
-        - Conducted independent deep learning research on ISLR across semlex, popsign, and ASL_citizen datasets.
-        - Evaluated Video-to-Pose pipelines (MediaPipe, ViTPose, SDpose) for extracting skeletal pose representations from sign language videos.
-        - Developed Pose-to-Gloss classifiers (decoupled-gcn, poseconv3d, CLAD_FlowMatching) for translating pose sequences into glosses.
-        - Best model CLAD_FlowMatching_v1 + MediaPipe achieved 91.78% top-1 accuracy on semlex dataset.
+        - Benchmarked deep learning models on PopSign ASL (210k videos), ASL Citizen (2,731 classes, signer-independent), and Sem-Lex (2,445 classes, 16 phonological labels).
+        - Developed CLAD_FlowMatching_v1 with image assistance and skeletal reduction, achieving SOTA 91.78% top-1 accuracy on official PopSign ASL (exceeding Kaggle 88% benchmark).
+        - Executed controlled study comparing 4 pose estimators (MediaPipe, ViTPose, PoseBH, SDPose) across standardized C x T x V tensors and layouts (two_hand_42 vs baseline_27).
+        - Optimized spatio-temporal architectures: SL-GCN with Decoupled Convolutions and STC attention, and PoseConv3D with 3D Gaussian heatmaps for jitter absorption.
+        - Engineered length-aware Sequence Bucketing and frame-wise/spatial Keypoint Dropout to mitigate occlusion and boost generalization.
       keywords:
-        - Deep Learning
-        - Sign Language
-        - Video-to-Pose
-        - Pose-to-Gloss
-        - MediaPipe
-        - CLAD
+        - PyTorch
+        - Graph Neural Networks
+        - Flow Matching
+        - Pose Estimation
+        - Computer Vision
+        - MediaPipe & ViTPose
+        - PoseConv3D
+        - Multimodal Deep Learning
 
-    - name: "DMPA: Model Poisoning Attacks on Decentralized Federated Learning"
-      description: Research on model poisoning attack strategies for decentralized federated learning at UZH.
+    - name: "DMPA: Adversarial Robustness in Decentralized FL"
+      description: Novel model poisoning attack and security benchmark for Decentralized Federated Learning (arXiv:2502.04771).
+      url: https://arxiv.org/abs/2502.04771
       startDate: Jan 2024
       endDate: Feb 2025
       summary: |
-        - Co-authored a research paper with an international team (arXiv:2502.04771).
-        - Proposed a novel attack strategy exploiting differential model characteristics across adversarial clients in decentralized federated learning.
-        - Coordinated multi-dataset experiments spanning diverse attack scenarios with co-authors.
-        - Demonstrated consistent outperformance against state-of-the-art model poisoning attacks in decentralized FL settings.
+        - Conceived DMPA (Decentralized Model Poisoning Attack) targeting DFL over P2P topologies under a strict black-box model without benign dataset knowledge.
+        - Formulated mathematical attack using correlation matrix eigenvalue decomposition to extract principal eigenvectors and compute angular projection vectors P = (y_max^T U) y_max.
+        - Designed top-k% selective masking with gradient rise to maintain stealthiness and prevent attack attenuation across multi-hop parameter averaging.
+        - Built distributed PyTorch simulation on NVIDIA GPU clusters; evaluated CNN/MLP architectures on CIFAR-10, MNIST, and Fashion-MNIST across Fully Connected, Star, and Ring topologies.
+        - Proved consistent degradation of benign F1 scores to <0.1 against 4 Byzantine-robust rules (FedAvg, Krum, Trimmed Mean, Median), outperforming LIE, Min-Max, and Min-Sum.
       keywords:
+        - PyTorch
         - Federated Learning
-        - Model Poisoning
-        - Research Collaboration
-        - Security
+        - Adversarial ML
+        - Mathematical Optimization
+        - Spectral Analysis
+        - Distributed Systems
+        - Byzantine Robustness
+        - Security Benchmarking
 
-    - name: Central Air-Conditioning Energy-Saving Control System
-      description: Multi-modal data fusion based HVAC energy-saving control system.
+    - name: Multimodal Industrial HVAC Energy Optimization & Thermal Modeling System
+      description: End-to-end industrial AI and IoT system for thermal comfort modeling and predictive HVAC energy reduction.
       startDate: Jan 2020
       endDate: Jul 2022
       summary: |
-        - Built the project team from scratch — recruited members, defined research direction, and drove milestone-based delivery.
-        - Designed a multi-modal data fusion algorithm and architected a SAAS platform for real-time HVAC monitoring and control.
-        - Delivered end-to-end engineering: customer communication, on-site deployment, and project acceptance.
-        - Proposed a thermal comfort temperature field framework that achieved 81% prediction accuracy and 36% energy savings.
-        - Presented roadshow pitches to stakeholders, investors, and competition judges.
-        - System deployed to production and currently in active use.
+        - Built an end-to-end industrial AI solution integrating real-time sensor streams, spatial thermal imaging, and ambient environmental data.
+        - Engineered a thermal comfort temperature field modeling framework with 81% prediction accuracy, published in Frontiers in Energy Research (JCR Q2).
+        - Implemented closed-loop predictive control and gradient-boosted decision models (XGBoost, CatBoost) to dynamically modulate chiller output, achieving COP 7.0 and 36% energy consumption reduction.
+        - Built IoT communication pipelines and cloud SaaS telemetry dashboards, successfully delivering on-site production deployment in commercial buildings.
       keywords:
-        - Team Leadership
-        - Multi-modal Fusion
-        - SAAS Architecture
-        - Stakeholder Communication
-        - Project Delivery
+        - Industrial AI
+        - Multimodal Data Fusion
+        - Predictive Control
+        - XGBoost
+        - IoT Telemetry
+        - SaaS Architecture
 
-    - name: Automatic Locking Screw Machine – Vision System
-      description: Industrial vision system for flexible manufacturing screw machines.
-      startDate: Sep 2019
-      endDate: Jan 2020
-      summary: |
-        - Owned the vision module end-to-end, coordinating with mechanical and embedded teams for system integration.
-        - Extracted screw hole coordinates via 3D reconstruction and transmitted them to the PLC for automated locking.
-        - Solved the limitation of 2D vision failing to recognize screw holes at varying positions and depths.
-        - Built 3D models using deep learning and point cloud processing; identified round screw holes using Halcon.
-        - Reduced recognition latency from 130ms to 30ms, directly increasing production line throughput.
-      keywords:
-        - 3D Reconstruction
-        - Point Cloud
-        - Halcon
-        - Cross-team Integration
-
-    - name: MarketWeb3 – Blockchain Marketplace Platform
-      description: Personal Web3 marketplace combining AI-assisted smart contract generation with on-chain transactions.
-      url: https://github.com/1316827294/marketweb3
-      startDate: Dec 2024
-      endDate: Jan 2025
-      summary: |
-        - Built a Next.js 14 and TypeScript Web3 marketplace with product discovery, wallet-connected checkout, and on-chain transaction flows.
-        - Designed an AI-assisted smart contract generation pipeline supporting multiple contract types, Solidity compilation, and IPFS-based deployment.
-        - Implemented dual escrow modes: direct contract escrow and platform-mediated settlement, covering distinct marketplace scenarios.
-        - Integrated RainbowKit, Wagmi, Ethers/Viem, Cloudflare D1, and Pinata for end-to-end Web3 infrastructure.
-      keywords:
-        - Next.js
-        - TypeScript
-        - Web3
-        - Smart Contracts
-        - IPFS
-
-    - name: Reddit Group-Control Automation System
-      description: Automated multi-account Reddit operations using Playwright browser automation.
+    - name: "MyCatsHome: Intelligent Pet Health & Vision AIoT"
+      description: Commercial-grade AIoT pet care ecosystem featuring real-time edge vision and multimodal health analytics.
+      url: https://mycatshome.com
       startDate: Jan 2025
-      endDate: Feb 2025
+      endDate: Jan 2026
       summary: |
-        - Built a multi-account automation system orchestrating 10 Reddit accounts via Playwright with fully autonomous execution.
-        - Automated content posting, engagement workflows, and cross-account management.
-        - Implemented anti-detection strategies and human-like behavior simulation to preserve account integrity.
+        - Engineered the end-to-end hardware-software architecture for an AIoT pet health monitoring system (mycatshome.com), featuring an AI smart door, GPS/BCG smart collar, and mobile companion app.
+        - Deployed lightweight vision models to edge microcontrollers for real-time prey interception (mice, birds, debris) with >99% precision, sub-second latency, and on-device privacy.
+        - Integrated Feline Grimace Scale (FGS) 5-point facial action unit analysis and Ballistocardiogram (BCG) micro-vibration telemetry for non-invasive 24/7 pain and vital sign monitoring.
+        - Built scalable cloud infrastructure using Cloudflare Workers, D1 database, and MQTT message brokers, powering real-time push alerts and interactive longitudinal health analytics.
       keywords:
-        - Playwright
-        - Browser Automation
-        - Group Control
-        - Python
-
-    - name: UZH IFI Q&A Forums
-      description: Full-stack real-time Q&A and social platform for UZH students, developed as a team course project.
-      url: https://github.com/sopra-fs23-group-38/sopra-fs23-38-client
-      startDate: Mar 2023
-      endDate: May 2023
-      summary: |
-        - Built a full-stack real-time Q&A platform with threaded discussions, full-text search, and peer messaging for the UZH student community.
-        - Implemented end-to-end search indexing users, questions, answers, and comments using MySQL-backed query logic.
-        - Developed registration, login, chat, and comment subsystems connecting React frontend to Spring Boot backend.
-        - Replaced HTTP polling with WebSocket-based real-time updates for chat and answer interactions.
-        - Repositories: [Client](https://github.com/sopra-fs23-group-38/sopra-fs23-38-client) / [Server](https://github.com/sopra-fs23-group-38/sopra-fs23-38-server)
-      keywords:
-        - React
-        - Spring Boot
-        - WebSocket
-        - MySQL
-        - Full-Stack
+        - Edge AI
+        - Computer Vision
+        - MicroPython & C++
+        - MQTT & Cloudflare
+        - React Native (Expo)
+        - FGS Pain Assessment
+        - BCG Vital Signs
+        - Embedded IoT
 
   education:
     - institution: University of Zurich (UZH)
-      area: Computer Linguistics & Neuroinformatics
+      area: Computational Linguistics & Neuroinformatics (Data Science)
       degree: Master
       startDate: Sep 1, 2022
       endDate: Jun 1, 2026
+
+    - institution: Wuyi University
+      area: Communication Engineering
+      degree: Bachelor
+      startDate: Sep 1, 2018
+      endDate: Jun 1, 2022
 
   publications:
     - name: "DMPA: Model Poisoning Attacks on Decentralized Federated Learning for Model Differences"
       publisher: arXiv
       releaseDate: Feb 7, 2025
       url: https://arxiv.org/abs/2502.04771
-      summary: Proposed an innovative model poisoning attack strategy targeting decentralized federated learning systems.
+      summary: Formulated a mathematical model poisoning attack using correlation matrix eigenvalue decomposition to extract angular deviation vectors, outperforming state-of-the-art attacks across diverse topologies and Byzantine-robust aggregation rules.
 
     - name: "Real-time construction of thermal model based on multimodal scene data"
       publisher: Frontiers in Energy Research (JCR Q2)
       releaseDate: Jan 1, 2022
-      summary: Developed real-time thermal model construction using multimodal scene data fusion.
-
-    - name: "Energy usage prediction based on multi-system data for public buildings using machine learning methods"
-      publisher: IEEE CompAuto 2021
-      releaseDate: Jan 1, 2021
-      summary: Applied machine learning methods for energy usage prediction in public buildings.
-
-    - name: "Online transaction detection method using CatBoost model"
-      publisher: IEEE CISCE 2020
-      releaseDate: Jan 1, 2020
-      summary: Developed online transaction detection using CatBoost model.
+      summary: Developed a real-time spatial temperature field construction framework using multimodal environmental sensor and vision data fusion for precision HVAC energy optimization.
 
   skills:
-    - name: AI & Machine Learning
+    - name: AI & Deep Learning
       level: Expert
       keywords:
-        - Machine Learning
-        - Deep Learning
-        - Intelligent Agents
-        - RAG
-        - Optimization Algorithms
         - PyTorch
+        - Graph Neural Networks (GCN)
+        - Flow Matching & Diffusion
+        - Computer Vision (OpenCV)
+        - Pose Estimation (ViTPose)
+        - LLM Agents & RAG
+        - Adversarial ML & FL
+        - Predictive ML (XGBoost)
 
-    - name: IoT, Embedded & Engineering
+    - name: AI Solutions & IoT Architecture
       level: Advanced
       keywords:
-        - Micropython
-        - MQTT
-        - Embedded AI
-        - Sensor Networks
-        - HVAC / PID / DDC
-        - Device-Cloud Communication
+        - Multimodal Data Fusion
+        - Edge AI & Embedded Inference
+        - MicroPython & C/C++
+        - MQTT & IoT Protocols
+        - Sensor Networks & Telemetry
+        - Closed-Loop Control (PID)
+        - Solution Architecture
 
-    - name: Software & Infrastructure
+    - name: Software & Cloud Infrastructure
       level: Advanced
       keywords:
         - Python
-        - C/C++
-        - JavaScript / TypeScript
-        - Cloudflare D1 / R2 / Workers
-        - Oracle Cloud
-        - Docker / Nginx
-        - N8N
+        - TypeScript & JavaScript
+        - React & Next.js
+        - React Native (Expo)
+        - FastAPI & Node.js
+        - Cloudflare Workers & D1
+        - Docker & Linux & SLURM
+        - SQL & Vector Databases
 
-    - name: Product & Leadership
+    - name: Leadership & Product Delivery
       level: Advanced
       keywords:
-        - Web Development
-        - Team Building
-        - Project Management
-        - Supply Chain / SOP
+        - Solution Consulting
+        - Cross-Functional Leadership
+        - Hardware-Software Integration
+        - Supply Chain & Production SOP
         - Stakeholder Communication
+        - Compliance (GDPR / CE / RED)
 
   languages:
     - language: Mandarin

@@ -4,267 +4,244 @@
 content:
   basics:
     name: Yunlong Li
-    headline: Technischer Lösungsingenieur
+    headline: Senior AI Solutions Engineer | KI & ML Architekt
     phone: "+41 79 539 72 86"
     email: ddlong68@outlook.com
     url: https://www.linkedin.com/in/yunlong-li-6891a72a3/
     summary: |
-      Technischer Lösungsingenieur an der Schnittstelle von KI, IoT und technischen Systemen —
-      vom Algorithmusentwurf bis zur Produktlieferung. Leitet funktionsübergreifende Teams durch
-      den gesamten Projektlebenszyklus: Forschungskonzept, Architektur, Implementierung und
-      produktiver Einsatz. Verbindet tiefgehende Expertise in ML/KI-Modellierung, eingebetteten
-      Plattformen und datengetriebener Steuerung mit praktischer Erfahrung in Teamaufbau,
-      Stakeholder-Kommunikation und Lieferkettenmanagement.
+      Senior AI Solutions Engineer & Forscher mit umfassender Erfahrung im Entwurf und Deployment
+      von End-to-End-KI/ML-Systemen — von fortgeschrittener Deep-Learning-Forschung (Generative Modelle,
+      Flow Matching, Graph Neural Networks, Computer Vision und dezentrales föderiertes Lernen) bis hin zur
+      industriellen Lösungsbereitstellung, Edge-KI-Integration und Cloud-Native-Backends. Nachgewiesene
+      Erfolge bei der Überführung komplexer algorithmischer Innovationen in skalierbare reale Produkte,
+      der Führung interdisziplinärer Engineering-Teams und dem Management des gesamten Lebenszyklus von der
+      mathematischen Formulierung bis zum Produktivbetrieb.
   location:
     city: Zürich
     country: Switzerland
 
   work:
+    - name: Selbstständiges Startup (MyCatsHome)
+      startDate: Jan 1, 2025
+      endDate: Jan 1, 2026
+      position: Gründer & Lead AI Solutions Engineer – MyCatsHome AIoT
+      url: https://mycatshome.com
+      summary: |
+        - End-to-End-AIoT-Ökosystem (mycatshome.com) entworfen, das Edge-Vision, Cloud-Microservices und Mobile-Apps verbindet.
+        - On-Device-Vision-Pipeline für Tierverhalten und Beuteabfang (>99 % Genauigkeit auf 10.000+ Bildern) mit Subsekunden-Inferenz entwickelt.
+        - Veterinärmedizinische KI via Feline Grimace Scale (FGS: 5 Aktionskategorien) und Ballistokardiogramm (BCG) Vitaldaten integriert.
+        - Low-Power-IoT-Stack mit MicroPython und MQTT über TLS aufgebaut, an Cloudflare D1 und React-Native-App (DSGVO-konform) angebunden.
+        - Hardware-Prototyping (CAD/PCB), BOM-Beschaffung, Fertigungs-SOPs und CE/RED-Zertifizierung für den EU-Markt geleitet.
+      keywords:
+        - Edge-KI
+        - Computer Vision
+        - MicroPython
+        - MQTT & IoT-Protokolle
+        - Multimodale Fusion
+        - FGS & BCG Gesundheits-KI
+        - React Native
+        - Cloudflare Serverless
+
     - name: Selbstständiges Startup
       startDate: Mar 1, 2025
       endDate: Jan 1, 2026
-      position: Gründer & Entwickler – SEO-Automatisierungssystem
+      position: Gründer & Lead AI Engineer – Autonome Multi-Agenten-Plattform
       summary: |
-        - Gesamten Produktlebenszyklus verantwortet — Marktanalyse, Systemarchitektur, Entwicklung und Cloud-Deployment.
-        - KI-Agenten-basierte SEO-Automatisierungsplattform für Keyword-Analyse, Content-Optimierung und Echtzeit-Performance-Monitoring architektiert.
-        - Full-Stack-Implementierung mit Vibe Coding für schnelles Prototyping und iterative Auslieferung umgesetzt.
-        - Produkt-Roadmap, Nutzerakquise und feedbackgesteuerte Release-Zyklen gesteuert.
+        - Skalierbare autonome Multi-Agenten-Plattform mittels LLM-Orchestrierung, strukturierter RAG-Pipelines und automatisiertem Reasoning für Keyword-Analyse, Content-Generierung und SERP-Monitoring architektiert.
+        - Asynchrone Web-Scraping-, Vektorindexierungs- und Echtzeit-Ranking-Workflows mit automatisierter Prompt-Optimierung und feedbackgesteuerten Verfeinerungsschleifen aufgebaut.
+        - Full-Stack-Webanwendung und Cloud-Deployment auf Serverless-Infrastruktur für automatisierte Content-Pipelines mit minimaler Latenz umgesetzt.
+        - Produkt-Roadmap, Nutzerakquise und feedbackgesteuerte Release-Zyklen erfolgreich gesteuert.
       keywords:
         - KI-Agenten
-        - SEO
-        - Vibe Coding
-        - Produktmanagement
-
-    - name: Selbstständiges Startup
-      startDate: Jan 1, 2025
-      endDate: Jan 1, 2026
-      position: Gründer & Produktentwickler – Smart Cat Door & IoT-System
-      summary: |
-        - End-to-End-Produktentwicklung über Hardware-Prototyping, Embedded-Firmware, Cloud-Backend und plattformübergreifende Mobile-App geleitet.
-        - On-Device-KI für Tiererkennung und Verhaltenserkennung mit Micropython und MQTT-basierter Gerät-Cloud-Kommunikation implementiert.
-        - React-Native-Mobile-App (Expo) für Echtzeit-Haustierüberwachung und ferngesteuerte Türkontrolle entwickelt.
-        - Gesamte Lieferkette aufgebaut — Lieferantensuche, Komponentenbeschaffung, Produktions-SOP und China-EU-Logistik.
-        - CE-, RED- und Netzwerkzertifizierungen für den EU-Markteintritt gesteuert.
-      keywords:
-        - IoT
-        - Embedded-KI
-        - Lieferkette
-        - CE/RED-Zertifizierung
-        - Produktentwicklung
+        - LLM-Orchestrierung
+        - RAG
+        - Prompt Engineering
+        - Python
+        - FastAPI
+        - Vektordatenbanken
+        - Serverless
 
     - name: HKUST (Guangzhou)
       startDate: Sep 1, 2023
       endDate: Jan 1, 2024
-      position: Forschungspraktikant Neurowissenschaften – Neuralaufzeichnung
+      position: Forschungspraktikant KI & Neural Engineering
       summary: |
-        - Kraniotomie und Implantation von Neuralsonden für elektrophysiologische In-vivo-Aufzeichnungen durchgeführt.
-        - Mit interdisziplinären Teams aus systemischer Neurowissenschaft und Neuralengineering zusammengearbeitet.
+        - Hochdichte elektrophysiologische In-vivo-Aufzeichnungspipelines und Kraniotomieverfahren zur Erfassung neuronaler Signale durchgeführt.
+        - Machine Learning und Zeitreihen-Signalverarbeitungsalgorithmen zur Analyse von Spike Trains, lokalen Feldpotenzialen (LFPs) und neuronaler Dekodierung angewendet.
+        - In interdisziplinären Teams an der Schnittstelle von systemischer Neurowissenschaft, computergestützter Modellierung und Neural Engineering zusammengearbeitet.
       keywords:
-        - Neurowissenschaften
-        - Neuralaufzeichnung
-        - Interdisziplinäre Forschung
+        - Neuronale Signalverarbeitung
+        - In-vivo-Elektrophysiologie
+        - Zeitreihen-ML
+        - Python
+        - Neural Decoding
 
     - name: Guangzhou Design Institute
       startDate: Sep 1, 2020
       endDate: Jul 1, 2022
-      position: Praktikant HLK-Systementwicklung
+      position: Praktikant Industrielle KI & IoT-Lösungsentwicklung
       summary: |
-        - Mit Industriepartnern zu Projektscoping, Vor-Ort-Deployment und Stakeholder-Berichterstattung koordiniert.
-        - An der Entwicklung multimodaler Datenfusionsalgorithmen und SAAS-Plattform-Architektur mitgewirkt.
-        - Teamabläufe, Forschungsrichtungsplanung und Meilensteinverfolgung organisiert.
-        - ML- und IoT-gestützte HLK-Optimierung unterstützt, die COP 7,0 und 36 % Energieeinsparung erreichte.
-        - Projektpräsentationen und Roadshow-Materialien für Investoren erstellt.
+        - Co-Autor einer in Frontiers in Energy Research (JCR Q2) veröffentlichten Studie; multimodalen Szenendatenfusionsalgorithmus zur Kopplung räumlicher Temperaturfelder mit Gebäudesensordaten entwickelt.
+        - Prädiktive ML-Modelle (XGBoost, CatBoost) und Regelungsalgorithmen (PID/DDC) entwickelt, die einen COP von 7,0 und 36 % Energieeinsparung in gewerblichen HLK-Anlagen erzielten.
+        - Durchgängige IoT-Datenerfassungs- und Visualisierungsplattform für HLK-Echtzeit-Telemetrie architektiert, Vor-Ort-Deployment und Kundenabnahme geleitet.
+        - Technische Roadshows und Dokumentationen für Industriepartner, Unternehmenskunden und Investoren präsentiert.
       keywords:
-        - HLK
-        - IoT
-        - Industriekoordination
-        - ML-Optimierung
+        - Industrielle KI
+        - Multimodale Datenfusion
+        - XGBoost
+        - Prädiktive Regelung
+        - IoT-Telemetrie
+        - SaaS-Architektur
 
   projects:
-    - name: Gebärdenspracherkennung (ISLR) Forschung
-      description: Deep-Learning-basierte Forschung zur isolierten Gebärdenspracherkennung an der UZH.
+    - name: "ISLR: Multimodales Flow-Matching & Pose Framework"
+      description: State-of-the-Art multimodales Deep-Learning-Framework und kontrollierte Pose-Estimation-Forschung für Gebärdenspracherkennung an der UZH.
       startDate: Jun 2025
       endDate: Jun 2026
       summary: |
-        - Eigenständige Deep-Learning-Forschung zur isolierten Gebärdenspracherkennung (ISLR) auf semlex, popsign und ASL_citizen durchgeführt.
-        - Video-to-Pose-Pipelines (MediaPipe, ViTPose, SDpose) zur Extraktion skelettaler Pose-Repräsentationen evaluiert.
-        - Pose-to-Gloss-Klassifikatoren (decoupled-gcn, poseconv3d, CLAD_FlowMatching) zur Übersetzung von Pose-Sequenzen in Glossen entwickelt.
-        - Bestes Modell CLAD_FlowMatching_v1 + MediaPipe erreichte 91,78 % Top-1-Genauigkeit auf semlex-Datensatz.
+        - Deep-Learning-Benchmark auf PopSign ASL (210k Videos), ASL Citizen (2.731 Klassen) und Sem-Lex (2.445 Klassen, 16 phonologische Labels) evaluiert.
+        - CLAD_FlowMatching_v1 mit Bildunterstützung entwickelt; erzielte SOTA 91,78 % Top-1-Genauigkeit auf offiziellem PopSign ASL (übertrifft 88%-Kaggle-Benchmark).
+        - Erste kontrollierte ISLR-Studie durchgeführt, die 4 Pose-Estimatoren (MediaPipe, ViTPose, PoseBH, SDPose) auf C x T x V Tensoren und Layouts vergleicht.
+        - Raum-Zeit-Architekturen optimiert: SL-GCN mit entkoppelten Faltungen & STC-Attention sowie PoseConv3D mit 3D-Gauß-Heatmaps zur Jitter-Kompensation.
+        - Längenbewusstes Sequence-Bucketing und Keypoint-Dropout gegen Okklusion und zur Steigerung der Generalisierung implementiert.
       keywords:
-        - Deep Learning
-        - Gebärdensprache
-        - Video-to-Pose
-        - Pose-to-Gloss
-        - MediaPipe
-        - CLAD
+        - PyTorch
+        - Graph Neural Networks
+        - Flow Matching
+        - Pose Estimation
+        - Computer Vision
+        - MediaPipe & ViTPose
+        - PoseConv3D
+        - Multimodales Deep Learning
 
-    - name: "DMPA: Model-Poisoning-Angriffe auf dezentrales föderiertes Lernen"
-      description: Forschung zu Model-Poisoning-Angriffsstrategien für dezentrales föderiertes Lernen an der UZH.
+    - name: "DMPA: Adversarial Robustness in dezentralem FL"
+      description: Neuartiger Model-Poisoning-Angriff und Sicherheitsbenchmark für dezentrales föderiertes Lernen (arXiv:2502.04771).
+      url: https://arxiv.org/abs/2502.04771
       startDate: Jan 2024
       endDate: Feb 2025
       summary: |
-        - Forschungspaper mit internationalem Team co-verfasst (arXiv:2502.04771).
-        - Neuartige Angriffsstrategie vorgeschlagen, die differenzielle Modellmerkmale über adversariale Clients im dezentralen föderierten Lernen ausnutzt.
-        - Multi-Datensatz-Experimente über verschiedene Angriffsszenarien mit Co-Autoren koordiniert.
-        - Durchgängige Überlegenheit gegenüber state-of-the-art Model-Poisoning-Angriffen in dezentralen FL-Szenarien nachgewiesen.
+        - DMPA (Decentralized Model Poisoning Attack) für DFL über P2P-Topologien unter striktem Black-Box-Modell ohne Kenntnis benigner Daten konzipiert.
+        - Mathematischen Angriff mittels Korrelationsmatrix-Eigenwertzerlegung zur Berechnung von Winkelprojektionsvektoren P = (y_max^T U) y_max formuliert.
+        - Top-k% selektives Masking mit Gradient-Rise zur Wahrung der Stealthiness und Vermeidung von Angriffsdämpfung über Multi-Hop-Mittelung entwickelt.
+        - Verteilte PyTorch-Simulation auf GPU-Clustern gebaut; CNN/MLP-Modelle auf CIFAR-10, MNIST und Fashion-MNIST über Mesh-, Stern- und Ringnetze getestet.
+        - Konsistente Degradierung der benignen F1-Werte auf <0,1 gegen 4 byzantinisch-robuste Regeln (FedAvg, Krum, Trimmed Mean, Median) nachgewiesen.
       keywords:
+        - PyTorch
         - Föderiertes Lernen
-        - Model Poisoning
-        - Forschungskooperation
-        - Sicherheit
+        - Adversarial ML
+        - Mathematische Optimierung
+        - Spektralanalyse
+        - Verteilte Systeme
+        - Byzantinische Robustheit
+        - Sicherheits-Benchmarking
 
-    - name: Energiesparendes Klimaanlagen-Steuerungssystem
-      description: Auf multimodaler Datenfusion basierendes HLK-Energiesparsystem.
+    - name: Multimodale industrielle HLK-Energieoptimierung & Thermomodellierung
+      description: Industrielles End-to-End-KI- und IoT-System zur thermischen Komfortmodellierung und prädiktiven HLK-Energieeinsparung.
       startDate: Jan 2020
       endDate: Jul 2022
       summary: |
-        - Projektteam von Grund auf aufgebaut — Mitglieder rekrutiert, Forschungsrichtung definiert und meilensteingesteuerte Lieferung vorangetrieben.
-        - Multimodalen Datenfusionsalgorithmus entworfen und SAAS-Plattform für Echtzeit-HLK-Überwachung und -Steuerung architektiert.
-        - End-to-End-Engineering-Lieferung: Kundenkommunikation, Vor-Ort-Deployment und Projektabnahme.
-        - Thermisches Komfort-Temperaturfeld-Framework vorgeschlagen, das 81 % Vorhersagegenauigkeit und 36 % Energieeinsparung erreichte.
-        - Roadshow-Pitches vor Stakeholdern, Investoren und Jurymitgliedern präsentiert.
-        - System im Produktivbetrieb und aktuell in Nutzung.
+        - Industrielle End-to-End-KI-Lösung entwickelt, die Echtzeit-Sensordatenströme, thermische Bildverarbeitung und Umgebungsparameter integriert.
+        - Modellierungsframework für thermische Komforttemperaturfelder mit 81 % Vorhersagegenauigkeit entworfen, veröffentlicht in Frontiers in Energy Research (JCR Q2).
+        - Prädiktive Regelung und Gradient-Boosting-Modelle (XGBoost, CatBoost) zur dynamischen Kältemaschinensteuerung implementiert, die einen COP von 7,0 und 36 % Energieeinsparung erzielten.
+        - IoT-Kommunikationspipelines und Cloud-SaaS-Telemetriedashboards aufgebaut und erfolgreich in gewerblichen Gebäuden im Produktivbetrieb bereitgestellt.
       keywords:
-        - Teamführung
-        - Multimodale Fusion
-        - SAAS-Architektur
-        - Stakeholder-Kommunikation
-        - Projektlieferung
+        - Industrielle KI
+        - Multimodale Datenfusion
+        - Prädiktive Regelung
+        - XGBoost
+        - IoT-Telemetrie
+        - SaaS-Architektur
 
-    - name: Automatische Schraubmaschine – Bildverarbeitungssystem
-      description: Industrielles Bildverarbeitungssystem für flexible Fertigungs-Schraubmaschinen.
-      startDate: Sep 2019
-      endDate: Jan 2020
-      summary: |
-        - Bildverarbeitungsmodul eigenverantwortlich geleitet, Koordination mit Mechanik- und Embedded-Teams für Systemintegration.
-        - Schraubenlochkoordinaten mittels 3D-Rekonstruktion extrahiert und an die SPS für automatisiertes Verschrauben übermittelt.
-        - Einschränkung der 2D-Bildverarbeitung bei variierenden Schraubenlochpositionen und -tiefen gelöst.
-        - 3D-Modelle mit Deep Learning und Punktwolkenverarbeitung erstellt; runde Schraubenlöcher mit Halcon identifiziert.
-        - Erkennungslatenz von 130 ms auf 30 ms reduziert, direkte Steigerung des Produktionsliniendurchsatzes ermöglicht.
-      keywords:
-        - 3D-Rekonstruktion
-        - Punktwolke
-        - Halcon
-        - Teamübergreifende Integration
-
-    - name: MarketWeb3 – Blockchain-Marktplatzplattform
-      description: Persönlicher Web3-Marktplatz mit KI-gestützter Smart-Contract-Generierung und On-Chain-Transaktionen.
-      url: https://github.com/1316827294/marketweb3
-      startDate: Dec 2024
-      endDate: Jan 2025
-      summary: |
-        - Next.js-14- und TypeScript-basierten Web3-Marktplatz mit Produktsuche, Wallet-verbundenem Checkout und On-Chain-Transaktionsflüssen entwickelt.
-        - KI-gestützte Smart-Contract-Generierungspipeline mit Unterstützung mehrerer Vertragstypen, Solidity-Kompilierung und IPFS-basiertem Deployment entworfen.
-        - Zwei Escrow-Modi implementiert: direktes Contract-Escrow und plattformvermittelte Abwicklung für unterschiedliche Marktplatzszenarien.
-        - RainbowKit, Wagmi, Ethers/Viem, Cloudflare D1 und Pinata für durchgängige Web3-Infrastruktur integriert.
-      keywords:
-        - Next.js
-        - TypeScript
-        - Web3
-        - Smart Contracts
-        - IPFS
-
-    - name: Reddit-Gruppensteuerungs-Automatisierungssystem
-      description: Automatisierte Multi-Account-Reddit-Operationen mittels Playwright-Browser-Automatisierung.
+    - name: "MyCatsHome: Intelligente Haustier-KI & Vision AIoT"
+      description: Kommerzielle AIoT-Plattform mit Echtzeit-Edge-Vision und multimodaler Gesundheitsanalytik.
+      url: https://mycatshome.com
       startDate: Jan 2025
-      endDate: Feb 2025
+      endDate: Jan 2026
       summary: |
-        - Multi-Account-Automatisierungssystem entwickelt, das 10 Reddit-Konten via Playwright mit vollständig autonomer Ausführung orchestriert.
-        - Content-Posting, Engagement-Workflows und kontenübergreifendes Management automatisiert.
-        - Anti-Erkennungsstrategien und menschenähnliche Verhaltenssimulation zur Wahrung der Account-Integrität implementiert.
+        - Vollständige Hard- und Softwarearchitektur für ein AIoT-Haustiergesundheitssystem (mycatshome.com) aus smarter Klappe, Halsband und App entwickelt.
+        - Leichtgewichtige Vision-Modelle auf Edge-Mikrocontroller für Beuteabfang (Nager, Vögel, Spielzeug) mit >99 % Präzision und Subsekunden-Latenz bereitgestellt.
+        - Feline Grimace Scale (FGS) 5-Punkte-Gesichtsaktionsanalyse und Ballistokardiogramm (BCG) Mikrovibrationssensorik für 24/7-Vitaldatenüberwachung integriert.
+        - Skalierbare Cloud-Infrastruktur mit Cloudflare Workers, D1-Datenbank und MQTT-Brokern für Push-Benachrichtigungen und Trendanalysen aufgebaut.
       keywords:
-        - Playwright
-        - Browser-Automatisierung
-        - Gruppensteuerung
-        - Python
-
-    - name: UZH IFI Q&A Foren
-      description: Full-Stack-Echtzeitplattform für Fragen, Antworten und soziale Interaktion für UZH-Studierende, entwickelt als Team-Kursprojekt.
-      url: https://github.com/sopra-fs23-group-38/sopra-fs23-38-client
-      startDate: Mar 2023
-      endDate: May 2023
-      summary: |
-        - Full-Stack-Echtzeit-Q&A-Plattform mit Thread-Diskussionen, Volltextsuche und Peer-Messaging für die UZH-Community entwickelt.
-        - End-to-End-Suchindizierung für Nutzer, Fragen, Antworten und Kommentare mit MySQL-basierter Abfragelogik implementiert.
-        - Registrierungs-, Login-, Chat- und Kommentarsubsysteme entwickelt, die React-Frontend mit Spring-Boot-Backend verbinden.
-        - HTTP-Polling durch WebSocket-basierte Echtzeit-Updates für Chat- und Antwort-Interaktionen ersetzt.
-        - Repositories: [Client](https://github.com/sopra-fs23-group-38/sopra-fs23-38-client) / [Server](https://github.com/sopra-fs23-group-38/sopra-fs23-38-server)
-      keywords:
-        - React
-        - Spring Boot
-        - WebSocket
-        - MySQL
-        - Full-Stack
+        - Edge-KI
+        - Computer Vision
+        - MicroPython & C++
+        - MQTT & Cloudflare
+        - React Native (Expo)
+        - FGS Schmerzbewertung
+        - BCG Vitaldaten
+        - Embedded IoT
 
   education:
     - institution: Universität Zürich (UZH)
-      area: Computerlinguistik & Neuroinformatik
+      area: Computerlinguistik & Neuroinformatik (Data Science)
       degree: Master
       startDate: Sep 1, 2022
       endDate: Jun 1, 2026
+
+    - institution: Wuyi University
+      area: Nachrichtentechnik (Communication Engineering)
+      degree: Bachelor
+      startDate: Sep 1, 2018
+      endDate: Jun 1, 2022
 
   publications:
     - name: "DMPA: Model Poisoning Attacks on Decentralized Federated Learning for Model Differences"
       publisher: arXiv
       releaseDate: Feb 7, 2025
       url: https://arxiv.org/abs/2502.04771
-      summary: Innovative Model-Poisoning-Angriffsstrategie für dezentrale föderierte Lernsysteme vorgeschlagen.
+      summary: Mathematischen Model-Poisoning-Angriff mittels Korrelationsmatrix-Eigenwertzerlegung zur Extraktion von Winkelabweichungsvektoren formuliert; übertrifft State-of-the-Art-Angriffe unter byzantinisch-robusten Aggregationsregeln.
 
     - name: "Real-time construction of thermal model based on multimodal scene data"
       publisher: Frontiers in Energy Research (JCR Q2)
       releaseDate: Jan 1, 2022
-      summary: Echtzeit-Thermomodellkonstruktion mittels multimodaler Szenendatenfusion entwickelt.
-
-    - name: "Energy usage prediction based on multi-system data for public buildings using machine learning methods"
-      publisher: IEEE CompAuto 2021
-      releaseDate: Jan 1, 2021
-      summary: Machine-Learning-Methoden zur Energieverbrauchsvorhersage in öffentlichen Gebäuden angewendet.
-
-    - name: "Online transaction detection method using CatBoost model"
-      publisher: IEEE CISCE 2020
-      releaseDate: Jan 1, 2020
-      summary: Online-Transaktionserkennung mittels CatBoost-Modell entwickelt.
+      summary: Echtzeit-Thermomodellierung mittels multimodaler Sensor- und Bilddatenfusion für präzise HLK-Energieoptimierung entwickelt.
 
   skills:
-    - name: KI & Maschinelles Lernen
+    - name: KI & Deep Learning
       level: Expert
       keywords:
-        - Machine Learning
-        - Deep Learning
-        - Intelligente Agenten
-        - RAG
-        - Optimierungsalgorithmen
         - PyTorch
+        - Graph Neural Networks (GCN)
+        - Flow Matching & Diffusion
+        - Computer Vision (OpenCV)
+        - Pose Estimation (ViTPose)
+        - LLM-Agenten & RAG
+        - Adversarial ML & FL
+        - Prädiktives ML (XGBoost)
 
-    - name: IoT, Embedded & Ingenieurwesen
+    - name: KI-Lösungen & IoT-Architektur
       level: Advanced
       keywords:
-        - Micropython
-        - MQTT
-        - Embedded-KI
-        - Sensornetzwerke
-        - HLK / PID / DDC
-        - Gerät-Cloud-Kommunikation
+        - Multimodale Datenfusion
+        - Edge-KI & Embedded Inferenz
+        - MicroPython & C/C++
+        - MQTT & IoT-Protokolle
+        - Sensornetzwerke & Telemetrie
+        - Prädiktive Regelung (PID)
+        - Lösungsarchitektur & Scoping
 
-    - name: Software & Infrastruktur
+    - name: Software & Cloud-Infrastruktur
       level: Advanced
       keywords:
         - Python
-        - C/C++
-        - JavaScript / TypeScript
-        - Cloudflare D1 / R2 / Workers
-        - Oracle Cloud
-        - Docker / Nginx
-        - N8N
+        - TypeScript & JavaScript
+        - React & Next.js
+        - React Native (Expo)
+        - FastAPI & Node.js
+        - Cloudflare Workers & D1
+        - Docker & Linux & SLURM
+        - SQL & Vektordatenbanken
 
-    - name: Produkt & Führung
+    - name: Führung & Projektlieferung
       level: Advanced
       keywords:
-        - Webentwicklung
-        - Teamaufbau
-        - Projektmanagement
-        - Lieferkette / SOP
+        - Lösungsberatung (Consulting)
+        - Interdisziplinäre Führung
+        - Hardware-Software-Integration
+        - Lieferkette & Produktions-SOP
         - Stakeholder-Kommunikation
+        - Compliance (DSGVO / CE / RED)
 
   languages:
     - language: Mandarin
