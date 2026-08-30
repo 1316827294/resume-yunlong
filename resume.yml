@@ -32,11 +32,14 @@ content:
         - Architected an end-to-end AIoT smart pet ecosystem (mycatshome.com) connecting edge vision, cloud microservices, and mobile apps.
         - Engineered on-device vision pipeline for real-time animal behavior and prey interception (>99% accuracy across 10,000+ images) with sub-second inference.
         - Implemented veterinary health AI via Feline Grimace Scale (FGS: 5 facial action units) and Ballistocardiogram (BCG) micro-vibration vital sign sensing.
+        - Built an in-app AI conversational assistant with intent recognition, text extraction/vector embeddings of veterinary literature, and an agentic RAG pipeline integrating live IoT telemetry for grounded health Q&A.
         - Developed low-power IoT stack using MicroPython and MQTT over TLS, interfacing edge devices with Cloudflare D1 and React Native app under GDPR/Swiss privacy.
         - Directed hardware prototyping (CAD/PCB), BOM sourcing, factory assembly SOPs, and CE/RED regulatory compliance.
       keywords:
         - Edge AI
         - Computer Vision
+        - LLM Agents & RAG
+        - Vector DB & Embeddings
         - MicroPython
         - MQTT & IoT Protocols
         - Multimodal Fusion
@@ -163,10 +166,13 @@ content:
         - Engineered the end-to-end hardware-software architecture for an AIoT pet health monitoring system (mycatshome.com), featuring an AI smart door, GPS/BCG smart collar, and mobile companion app.
         - Deployed lightweight vision models to edge microcontrollers for real-time prey interception (mice, birds, debris) with >99% precision, sub-second latency, and on-device privacy.
         - Integrated Feline Grimace Scale (FGS) 5-point facial action unit analysis and Ballistocardiogram (BCG) micro-vibration telemetry for non-invasive 24/7 pain and vital sign monitoring.
+        - Implemented an in-app conversational agent with intent recognition and RAG: extracted & vectorized veterinary literature, enabling agentic retrieval combined with real-time IoT device metrics for grounded health Q&A.
         - Built scalable cloud infrastructure using Cloudflare Workers, D1 database, and MQTT message brokers, powering real-time push alerts and interactive longitudinal health analytics.
       keywords:
         - Edge AI
         - Computer Vision
+        - LLM Agents & RAG
+        - Vector DB & Embeddings
         - MicroPython & C++
         - MQTT & Cloudflare
         - React Native (Expo)

@@ -32,11 +32,14 @@ content:
         - End-to-End-AIoT-Ökosystem (mycatshome.com) entworfen, das Edge-Vision, Cloud-Microservices und Mobile-Apps verbindet.
         - On-Device-Vision-Pipeline für Tierverhalten und Beuteabfang (>99 % Genauigkeit auf 10.000+ Bildern) mit Subsekunden-Inferenz entwickelt.
         - Veterinärmedizinische KI via Feline Grimace Scale (FGS: 5 Aktionskategorien) und Ballistokardiogramm (BCG) Vitaldaten integriert.
+        - In-App-KI-Assistent mit Absichtserkennung (Intent Recognition), Vektorisierung veterinärmedizinischer Fachbücher und agentischer RAG-Pipeline implementiert, die Live-Gerätedaten mit Fachliteratur verknüpft.
         - Low-Power-IoT-Stack mit MicroPython und MQTT über TLS aufgebaut, an Cloudflare D1 und React-Native-App (DSGVO-konform) angebunden.
         - Hardware-Prototyping (CAD/PCB), BOM-Beschaffung, Fertigungs-SOPs und CE/RED-Zertifizierung für den EU-Markt geleitet.
       keywords:
         - Edge-KI
         - Computer Vision
+        - KI-Agenten & RAG
+        - Vektordatenbanken
         - MicroPython
         - MQTT & IoT-Protokolle
         - Multimodale Fusion
@@ -163,10 +166,13 @@ content:
         - Vollständige Hard- und Softwarearchitektur für ein AIoT-Haustiergesundheitssystem (mycatshome.com) aus smarter Klappe, Halsband und App entwickelt.
         - Leichtgewichtige Vision-Modelle auf Edge-Mikrocontroller für Beuteabfang (Nager, Vögel, Spielzeug) mit >99 % Präzision und Subsekunden-Latenz bereitgestellt.
         - Feline Grimace Scale (FGS) 5-Punkte-Gesichtsaktionsanalyse und Ballistokardiogramm (BCG) Mikrovibrationssensorik für 24/7-Vitaldatenüberwachung integriert.
+        - In-App-KI-Assistent mit Absichtserkennung (Intent Recognition) und agentischer RAG-Pipeline entwickelt: Fachliteratur extrahiert, vektorisiert und mit Echtzeit-Gerätetelemetrie für präzise Gesundheits-Q&A verknüpft.
         - Skalierbare Cloud-Infrastruktur mit Cloudflare Workers, D1-Datenbank und MQTT-Brokern für Push-Benachrichtigungen und Trendanalysen aufgebaut.
       keywords:
         - Edge-KI
         - Computer Vision
+        - KI-Agenten & RAG
+        - Vektordatenbanken
         - MicroPython & C++
         - MQTT & Cloudflare
         - React Native (Expo)
