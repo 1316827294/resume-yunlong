@@ -16,6 +16,8 @@ content:
       Erfolge bei der Überführung komplexer algorithmischer Innovationen in skalierbare reale Produkte,
       der Führung interdisziplinärer Engineering-Teams und dem Management des gesamten Lebenszyklus von der
       mathematischen Formulierung bis zum Produktivbetrieb.
+
+      **Arbeitsbewilligung**: Schweizer Arbeitsbewilligung vorhanden (gültig ab 1. Oktober).
   location:
     city: Zürich
     country: Switzerland
@@ -95,7 +97,7 @@ content:
 
   projects:
     - name: "ISLR: Multimodales Flow-Matching & Pose Framework"
-      description: State-of-the-Art multimodales Deep-Learning-Framework und kontrollierte Pose-Estimation-Forschung für Gebärdenspracherkennung an der UZH.
+      description: SOTA multimodales Deep-Learning-Framework und kontrollierte Pose-Estimation-Forschung für Gebärdenspracherkennung (UZH).
       startDate: Jun 2025
       endDate: Jun 2026
       summary: |

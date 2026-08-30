@@ -16,6 +16,8 @@ content:
       translating complex algorithmic breakthroughs into scalable real-world products, leading
       cross-functional engineering teams, and managing the entire lifecycle from mathematical formulation
       to client acceptance and deployment.
+
+      **Work Authorization**: Swiss Work Permit (valid from October 1).
   location:
     city: Zurich
     country: Switzerland
@@ -95,7 +97,7 @@ content:
 
   projects:
     - name: "ISLR: Multimodal Flow-Matching & Pose Framework"
-      description: State-of-the-art multimodal deep learning framework and controlled pose estimation research for sign language recognition at UZH.
+      description: SOTA multimodal deep learning framework and controlled pose estimation research for sign language recognition at UZH.
       startDate: Jun 2025
       endDate: Jun 2026
       summary: |

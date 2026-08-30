@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Tom van Veen — Resume as Code",
+  "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=20"
   },

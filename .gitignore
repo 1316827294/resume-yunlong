@@ -6,6 +6,10 @@ resume.pdf
 resume.tex
 resume.html
 resume.md
+resume.*.pdf
+resume.*.tex
+resume.*.html
+resume.*.md
 
 # LaTeX intermediates
 *.aux
